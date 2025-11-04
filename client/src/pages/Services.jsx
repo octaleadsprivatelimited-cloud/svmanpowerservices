@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Home, Building2, Car, Shield, Stethoscope, Sparkles, Calculator, GraduationCap, Wrench, Truck, Package, Calendar, MessageCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const Services = () => {
   // WhatsApp message generator based on service title
@@ -48,7 +49,7 @@ const Services = () => {
       title: 'Car Washing Services',
       description: 'Professional car washing boys for maintaining and cleaning vehicles at car service centers and facilities.',
       features: ['Expert car cleaners', 'Quick service', 'Quality assurance', 'Flexible schedules'],
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://img.freepik.com/free-photo/professional-washer-blue-uniform-washing-luxury-car-with-water-gun-open-air-car-wash_496169-333.jpg',
       href: '/services/car-washing'
     },
     {
@@ -56,7 +57,7 @@ const Services = () => {
       title: 'Watchman & Security Services',
       description: 'Security personnel and watchman services with accommodation provided. Available for both men and women.',
       features: ['With accommodation', '24/7 security', 'Trained guards', 'Background verified'],
-      image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://paladinsecurity.com/wp-content/uploads/2022/06/TMi9Fj0hkNf3fV-1-scaled.jpg',
       href: '/services/watchman'
     },
     {
@@ -64,7 +65,7 @@ const Services = () => {
       title: 'Ward Boys & Girls (Hospital)',
       description: 'Hospital ward boys and girls for patient care and hospital maintenance services.',
       features: ['Men & Women available', 'Hospital trained', 'Patient care', 'Reliable service'],
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://5.imimg.com/data5/ANDROID/Default/2023/9/348649045/AH/TN/PR/196043815/product-jpeg-500x500.jpg',
       href: '/services/ward-boys'
     },
     {
@@ -72,7 +73,7 @@ const Services = () => {
       title: 'Security Services',
       description: 'Comprehensive security services with trained security personnel for both men and women.',
       features: ['Men & Women guards', 'Trained professionals', '24/7 coverage', 'Verified staff'],
-      image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.QzBCk5J5HaErvVyFmM143wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
       href: '/services/security'
     },
     {
@@ -112,7 +113,7 @@ const Services = () => {
       title: 'Drivers',
       description: 'Professional drivers for various vehicle types including personal drivers and commercial drivers.',
       features: ['Licensed drivers', 'All vehicle types', 'Background verified', 'Reliable service'],
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://www.elements.org/media/3130/istock-653102446.jpg?width=515&height=316&quality=90&v=1dae8364d1a53e0',
       href: '/services/drivers'
     },
     {
@@ -120,7 +121,7 @@ const Services = () => {
       title: 'Delivery Boys',
       description: 'Delivery personnel for various delivery services including courier and food delivery.',
       features: ['Quick delivery', 'Reliable service', 'Multiple locations', 'Flexible schedules'],
-      image: 'https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80',
+      image: 'https://im.indiatimes.in/content/2020/Apr/Amazon-600x450_5e86d806d4c40.jpg',
       href: '/services/delivery-boys'
     },
     {
@@ -156,6 +157,23 @@ const Services = () => {
 
   return (
     <div>
+      <SEO
+        title="Our Services - Housekeeping, Security, Drivers & More | SV Manpower services Hyderabad"
+        description="Comprehensive manpower services in Hyderabad: Housekeeping, Security Guards, Drivers, Office Staff, Ward Boys, Car Washing, Delivery Boys, Event Staff, and more. Professional staffing solutions. Call +91 9441160049"
+        keywords="manpower services Hyderabad, housekeeping services, security guards, drivers, office staff, watchman services, ward boys, car washing services, delivery boys, event staff, plumbing services, accounting jobs, deep cleaning services, temporary staffing, permanent placement, staffing solutions Hyderabad"
+        url="https://svmanpower.com/services"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "serviceType": "Manpower Services",
+          "provider": {
+            "@type": "Organization",
+            "name": "SV Manpower services"
+          },
+          "areaServed": "Hyderabad",
+          "description": "Professional manpower and staffing services including housekeeping, security, drivers, office staff, and more."
+        }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Users, Target, Award, Heart, CheckCircle, TrendingUp } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const About = () => {
   const values = [
@@ -38,6 +39,12 @@ const About = () => {
 
   return (
     <div>
+      <SEO
+        title="About Us - SV Manpower services | 15+ Years Experience | Hyderabad"
+        description="Learn about SV Manpower services - Leading manpower and staffing agency in Hyderabad with 15+ years of experience. We provide reliable staffing solutions for housekeeping, security, drivers, and more."
+        keywords="about SV Manpower, manpower agency history, staffing company Hyderabad, recruitment agency experience, reliable staffing services, best manpower agency Hyderabad, professional staffing solutions"
+        url="https://svmanpower.com/about"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">
@@ -66,34 +73,60 @@ const About = () => {
       {/* Our Story */}
       <section className="section-padding">
         <div className="container-max">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-6">
-                Our Story
-              </h2>
-              <div className="space-y-4 text-secondary-700 leading-relaxed">
-                <p>
-                  Founded in 1999, SV Manpower services began as a small recruitment firm with a big vision: 
-                  to revolutionize how companies find talent and how professionals discover career opportunities.
-                </p>
-                <p>
-                  What started as a local operation has grown into a trusted partner for businesses nationwide, 
-                  helping over 10,000 professionals find their dream jobs and supporting 500+ companies in 
-                  building exceptional teams.
-                </p>
-                <p>
-                  Today, we combine traditional recruitment expertise with cutting-edge technology, 
-                  ensuring that every placement is not just a match, but a perfect fit that drives success 
-                  for both our clients and candidates.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-6">
+              Our Story
+            </h2>
+            <div className="space-y-6 text-secondary-700 leading-relaxed">
+              <p className="text-lg">
+                Founded in 1999, SV Manpower services began as a small recruitment firm with a big vision: 
+                to revolutionize how companies find talent and how professionals discover career opportunities.
+              </p>
+              <p>
+                What started as a local operation has grown into a trusted partner for businesses nationwide, 
+                helping over 10,000 professionals find their dream jobs and supporting 500+ companies in 
+                building exceptional teams.
+              </p>
+              <p>
+                Today, we combine traditional recruitment expertise with cutting-edge technology, 
+                ensuring that every placement is not just a match, but a perfect fit that drives success 
+                for both our clients and candidates.
+              </p>
+              <div className="mt-8 p-6 bg-secondary-50 rounded-lg">
+                <h3 className="text-xl font-semibold text-secondary-900 mb-4">Our Mission</h3>
+                <p className="text-secondary-700">
+                  To bridge the gap between talented professionals and exceptional opportunities, 
+                  creating meaningful connections that drive career growth and business success. 
+                  We are committed to providing reliable, professional, and efficient manpower solutions 
+                  that meet the diverse needs of our clients across various industries.
                 </p>
               </div>
-            </div>
-            <div>
-              <img
-                src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Our team at work"
-                className="rounded-lg shadow-xl"
-              />
+              <div className="mt-6 p-6 bg-primary-50 rounded-lg border-l-4 border-primary-600">
+                <h3 className="text-xl font-semibold text-secondary-900 mb-4">Our Commitment</h3>
+                <p className="text-secondary-700 mb-4">
+                  At SV Manpower services, we understand that every business has unique staffing needs. 
+                  Whether you require housekeeping staff, security personnel, office support, drivers, 
+                  or specialized professionals, we are dedicated to finding the right talent for your organization.
+                </p>
+                <ul className="space-y-2 text-secondary-700">
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" />
+                    <span>Comprehensive background verification for all candidates</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" />
+                    <span>Quick deployment of qualified staff to meet urgent requirements</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" />
+                    <span>Ongoing support and follow-up to ensure client satisfaction</span>
+                  </li>
+                  <li className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-primary-600 mr-2 mt-0.5 flex-shrink-0" />
+                    <span>Flexible staffing solutions tailored to your business needs</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>

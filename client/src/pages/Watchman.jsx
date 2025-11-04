@@ -69,7 +69,7 @@ const Watchman = () => {
                 className="bg-secondary-50 rounded-lg p-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://paladinsecurity.com/wp-content/uploads/2022/06/TMi9Fj0hkNf3fV-1-scaled.jpg"
                   alt="Watchman Services"
                   className="w-full rounded-lg"
                 />

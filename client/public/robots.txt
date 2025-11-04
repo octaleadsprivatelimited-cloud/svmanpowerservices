@@ -2,41 +2,11 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://hrstaffing.com/sitemap.xml
+Sitemap: https://svmanpower.com/sitemap.xml
 
-# Crawl-delay
-Crawl-delay: 1
+# Disallow admin or private areas (if any)
+# Disallow: /admin
+# Disallow: /private
 
-# Disallow admin areas (if any)
-Disallow: /admin/
-Disallow: /api/
-Disallow: /_next/
-Disallow: /static/
-
-# Allow important pages
-Allow: /
-Allow: /about
-Allow: /services
-Allow: /contact
-Allow: /blog
-Allow: /careers
-Allow: /testimonials
-Allow: /faq
-Allow: /pricing
-Allow: /portfolio
-
-# Allow service pages
-Allow: /services/temporary-staffing
-Allow: /services/permanent-placement
-Allow: /services/executive-search
-Allow: /services/payroll-services
-Allow: /services/hr-consulting
-Allow: /services/training-development
-
-# Allow solution pages
-Allow: /solutions/industry-solutions
-Allow: /solutions/technology-staffing
-Allow: /solutions/healthcare-staffing
-Allow: /solutions/finance-staffing
-Allow: /solutions/manufacturing-staffing
-Allow: /solutions/retail-staffing
+# Crawl-delay (optional)
+# Crawl-delay: 1

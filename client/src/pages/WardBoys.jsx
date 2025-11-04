@@ -69,7 +69,7 @@ const WardBoys = () => {
                 className="bg-secondary-50 rounded-lg p-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://5.imimg.com/data5/ANDROID/Default/2023/9/348649045/AH/TN/PR/196043815/product-jpeg-500x500.jpg"
                   alt="Hospital Ward Staff"
                   className="w-full rounded-lg"
                 />

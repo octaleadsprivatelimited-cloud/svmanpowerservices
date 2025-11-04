@@ -3,8 +3,55 @@ import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Home as HomeIcon, Building2, Car, Shield, Stethoscope, Sparkles, Calculator, GraduationCap, Wrench, Truck, Package, Calendar, Users, Award, CheckCircle, Star, MessageCircle } from 'lucide-react'
 import HeroSlider from '../components/HeroSlider'
+import SEO from '../components/SEO'
 
 const Home = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "SV Manpower services - Professional Recruitment & Staffing Solutions",
+    "description": "Leading manpower and staffing agency in Hyderabad offering housekeeping, security, drivers, office staff, and more. 15+ years of experience.",
+    "url": "https://svmanpower.com/",
+    "mainEntity": {
+      "@type": "Service",
+      "serviceType": "Manpower Services",
+      "provider": {
+        "@type": "Organization",
+        "name": "SV Manpower services"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Hyderabad"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Manpower Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Housekeeping Services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Security & Watchman Services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Driver Services"
+            }
+          }
+        ]
+      }
+    }
+  }
   const stats = [
     { number: '1000+', label: 'Successful Placements' },
     { number: '200+', label: 'Happy Clients' },
@@ -116,6 +163,13 @@ const Home = () => {
 
   return (
     <div>
+      <SEO
+        title="SV Manpower services - Professional Recruitment & Staffing Solutions | Hyderabad | +91 9441160049"
+        description="Leading manpower and staffing agency in Hyderabad. Professional housekeeping, security guards, drivers, office staff, ward boys, and more. 15+ years of experience. Call +91 9441160049 or WhatsApp us for quick staffing solutions."
+        keywords="manpower services Hyderabad, staffing agencies Hyderabad, recruitment services Hyderabad, housekeeping services, security guards Hyderabad, drivers Hyderabad, office staff, watchman services, ward boys, car washing services, delivery boys, event staff, manpower agency near me, job placement Hyderabad, staffing solutions, temporary staffing, permanent placement, HR services, employment agency Hyderabad, best manpower agency, reliable staffing services"
+        url="https://svmanpower.com/"
+        structuredData={structuredData}
+      />
       {/* Hero Section with Slider */}
       <HeroSlider />
 

@@ -2,18 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Car, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const CarWashing = () => {
-  useEffect(() => {
-    document.title = 'Car Washing Services - SV Manpower services | Professional Car Cleaners'
-    const metaDescription = document.querySelector('meta[name="description"]')
-    if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional car washing boys for car service centers and facilities. SV Manpower provides expert car cleaners for quick and quality service. Contact us today!')
-    }
-  }, [])
 
   return (
     <div>
+      <SEO
+        title="Car Washing Services - Professional Car Cleaners | SV Manpower services Hyderabad"
+        description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 9441160049"
+        keywords="car washing services Hyderabad, car cleaners, car washing staff, car service center staff, professional car washing, car wash boys, automobile cleaning staff, car cleaning services"
+        url="https://svmanpower.com/services/car-washing"
+      />
         <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
           <div className="container-max">
             <div className="max-w-4xl mx-auto text-center">
@@ -69,7 +69,7 @@ const CarWashing = () => {
                 className="bg-secondary-50 rounded-lg p-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://img.freepik.com/free-photo/professional-washer-blue-uniform-washing-luxury-car-with-water-gun-open-air-car-wash_496169-333.jpg"
                   alt="Car Washing Services"
                   className="w-full rounded-lg"
                 />

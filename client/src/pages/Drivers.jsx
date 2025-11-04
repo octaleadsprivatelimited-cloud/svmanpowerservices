@@ -69,7 +69,7 @@ const Drivers = () => {
                 className="bg-secondary-50 rounded-lg p-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://www.elements.org/media/3130/istock-653102446.jpg?width=515&height=316&quality=90&v=1dae8364d1a53e0"
                   alt="Driver Services"
                   className="w-full rounded-lg"
                 />

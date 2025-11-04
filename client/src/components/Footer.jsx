@@ -18,7 +18,6 @@ const Footer = () => {
       title: 'Company',
       links: [
         { name: 'About Us', href: '/about' },
-        { name: 'Careers', href: '/careers' },
         { name: 'News & Updates', href: '/blog' },
         { name: 'Testimonials', href: '/testimonials' }
       ]
@@ -81,10 +80,10 @@ const Footer = () => {
               </p>
               
               {/* Contact Info */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 <div>
-                  <h4 className="font-semibold mb-2">Contact Information</h4>
-                  <div className="text-secondary-300 space-y-1">
+                  <h4 className="font-semibold mb-1.5 text-sm">Contact Information</h4>
+                  <div className="text-secondary-300 space-y-0.5 text-xs">
                     <p>H.no 12-5-52, Flat No 103, SP Nagar</p>
                     <p>Moosapet, kukatpally</p>
                     <p>Medchal (malkajgori)</p>

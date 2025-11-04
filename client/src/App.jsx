@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -11,7 +13,6 @@ import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import Testimonials from './pages/Testimonials'
 import FAQ from './pages/FAQ'
-import Careers from './pages/Careers'
 import TemporaryStaffing from './pages/TemporaryStaffing'
 import PermanentPlacement from './pages/PermanentPlacement'
 import ExecutiveSearch from './pages/ExecutiveSearch'
@@ -32,17 +33,17 @@ function App() {
         <Header />
         <main className="flex-grow">
           <Routes>
+            {/* Main Pages */}
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/careers" element={<Careers />} />
+            <Route path="/contact" element={<Contact />} />
             
-            {/* Service-specific pages */}
+            {/* Service Pages */}
             <Route path="/services/temporary-staffing" element={<TemporaryStaffing />} />
             <Route path="/services/permanent-placement" element={<PermanentPlacement />} />
             <Route path="/services/executive-search" element={<ExecutiveSearch />} />
@@ -50,7 +51,7 @@ function App() {
             <Route path="/services/hr-consulting" element={<HRConsulting />} />
             <Route path="/services/training-development" element={<TrainingDevelopment />} />
             
-            {/* Industry-specific pages */}
+            {/* Industry Solutions Pages */}
             <Route path="/solutions/industry-solutions" element={<IndustrySolutions />} />
             <Route path="/solutions/technology-staffing" element={<TechnologyStaffing />} />
             <Route path="/solutions/healthcare-staffing" element={<HealthcareStaffing />} />
@@ -61,6 +62,8 @@ function App() {
         </main>
         <Footer />
       </div>
+      <SpeedInsights />
+      <Analytics />
     </Router>
   )
 }

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
 import ContactForm from '../components/ContactForm'
+import SEO from '../components/SEO'
 
 const Contact = () => {
   const contactInfo = [
@@ -29,6 +30,31 @@ const Contact = () => {
 
   return (
     <div>
+      <SEO
+        title="Contact Us - SV Manpower services | Hyderabad | +91 9441160049"
+        description="Contact SV Manpower services in Hyderabad. Address: H.no 12-5-52, Flat No 103, SP Nagar, Moosapet, kukatpally. Call +91 9441160049 or +91 9177587766. Email: y.damu264@gmail.com"
+        keywords="contact SV Manpower, manpower agency contact, staffing services contact Hyderabad, manpower agency address, contact number manpower services, SV Manpower phone number, manpower agency near me"
+        url="https://svmanpower.com/contact"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "name": "Contact SV Manpower services",
+          "description": "Contact us for all your manpower and staffing needs",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "SV Manpower services",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "H.no 12-5-52, Flat No 103, SP Nagar",
+              "addressLocality": "Moosapet, kukatpally",
+              "addressRegion": "Medchal (malkajgori)",
+              "addressCountry": "IN"
+            },
+            "telephone": "+91-9441160049",
+            "email": "y.damu264@gmail.com"
+          }
+        }}
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">

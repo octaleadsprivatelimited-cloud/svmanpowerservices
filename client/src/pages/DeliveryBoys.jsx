@@ -69,7 +69,7 @@ const DeliveryBoys = () => {
                 className="bg-secondary-50 rounded-lg p-8"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1607082349566-187342175e2f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  src="https://im.indiatimes.in/content/2020/Apr/Amazon-600x450_5e86d806d4c40.jpg"
                   alt="Delivery Services"
                   className="w-full rounded-lg"
                 />
