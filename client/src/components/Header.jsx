@@ -160,57 +160,57 @@ const Header = () => {
                 {/* Divider */}
                 <div className="border-t border-secondary-200"></div>
 
-                {/* Contact Information Section - Enhanced Design */}
-                <div className="bg-gradient-to-br from-secondary-50 to-primary-50 p-4 border-t border-secondary-200">
-                  <div className="flex items-center space-x-2 mb-4">
-                    <div className="w-1 h-5 bg-primary-600 rounded-full"></div>
-                    <h4 className="font-bold text-secondary-900 text-sm">Quick Contact</h4>
+                {/* Contact Information Section - Medium Size */}
+                <div className="bg-gradient-to-br from-secondary-50 to-primary-50 p-3 border-t border-secondary-200">
+                  <div className="flex items-center space-x-2 mb-3">
+                    <div className="w-1 h-4 bg-primary-600 rounded-full"></div>
+                    <h4 className="font-semibold text-secondary-900 text-xs">Quick Contact</h4>
                   </div>
                   
-                  <div className="space-y-3">
-                    {/* Phone Numbers - Enhanced */}
-                    <div className="grid grid-cols-1 gap-2">
+                  <div className="space-y-2">
+                    {/* Phone Numbers - Medium */}
+                    <div className="grid grid-cols-1 gap-1.5">
                       <a
                         href="tel:+919441160049"
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="flex items-center space-x-3 p-3 bg-white rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-200 group border border-secondary-100"
+                        className="flex items-center space-x-2 p-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group border border-secondary-100"
                       >
-                        <div className="flex-shrink-0 w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                          <Phone size={18} className="text-primary-600" />
+                        <div className="flex-shrink-0 w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
+                          <Phone size={16} className="text-primary-600" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-xs text-secondary-500 mb-0.5">Phone</p>
-                          <p className="text-sm font-semibold text-secondary-900">+91 9441160049</p>
+                          <p className="text-xs font-semibold text-secondary-900">+91 9441160049</p>
                         </div>
                       </a>
                       
                       <a
                         href="tel:+919177587766"
                         onClick={() => setIsMobileMenuOpen(false)}
-                        className="flex items-center space-x-3 p-3 bg-white rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-200 group border border-secondary-100"
+                        className="flex items-center space-x-2 p-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group border border-secondary-100"
                       >
-                        <div className="flex-shrink-0 w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                          <Phone size={18} className="text-primary-600" />
+                        <div className="flex-shrink-0 w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
+                          <Phone size={16} className="text-primary-600" />
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="text-xs text-secondary-500 mb-0.5">Phone</p>
-                          <p className="text-sm font-semibold text-secondary-900">+91 9177587766</p>
+                          <p className="text-xs font-semibold text-secondary-900">+91 9177587766</p>
                         </div>
                       </a>
                     </div>
 
-                    {/* WhatsApp - Enhanced */}
+                    {/* WhatsApp - Medium */}
                     <a
                       href="https://wa.me/919441160049"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="flex items-center space-x-3 p-3 bg-gradient-to-r from-green-50 to-green-100 rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-200 group border border-green-200"
+                      className="flex items-center space-x-2 p-2 bg-gradient-to-r from-green-50 to-green-100 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group border border-green-200"
                     >
-                      <div className="flex-shrink-0 w-10 h-10 bg-[#25D366] rounded-full flex items-center justify-center group-hover:bg-[#20BA5A] transition-colors shadow-md">
+                      <div className="flex-shrink-0 w-8 h-8 bg-[#25D366] rounded-full flex items-center justify-center group-hover:bg-[#20BA5A] transition-colors">
                         <svg 
-                          width="20" 
-                          height="20" 
+                          width="16" 
+                          height="16" 
                           viewBox="0 0 24 24" 
                           fill="white" 
                           xmlns="http://www.w3.org/2000/svg"
@@ -220,41 +220,41 @@ const Header = () => {
                       </div>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs text-secondary-500 mb-0.5">WhatsApp</p>
-                        <p className="text-sm font-semibold text-secondary-900">Chat with us</p>
+                        <p className="text-xs font-semibold text-secondary-900">Chat with us</p>
                       </div>
                     </a>
 
-                    {/* Email - Enhanced */}
+                    {/* Email - Medium */}
                     <a
                       href="mailto:y.damu264@gmail.com"
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="flex items-center space-x-3 p-3 bg-white rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-200 group border border-secondary-100"
+                      className="flex items-center space-x-2 p-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group border border-secondary-100"
                     >
-                      <div className="flex-shrink-0 w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                        <Mail size={18} className="text-primary-600" />
+                      <div className="flex-shrink-0 w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
+                        <Mail size={16} className="text-primary-600" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs text-secondary-500 mb-0.5">Email</p>
-                        <p className="text-sm font-semibold text-secondary-900 truncate">y.damu264@gmail.com</p>
+                        <p className="text-xs font-semibold text-secondary-900 truncate">y.damu264@gmail.com</p>
                       </div>
                     </a>
 
-                    {/* Map Location - Enhanced */}
+                    {/* Map Location - Medium */}
                     <a
                       href="https://www.google.com/maps?q=17.4687342,78.4272166&z=17&hl=en"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="flex items-center space-x-3 p-3 bg-white rounded-xl shadow-sm hover:shadow-md hover:scale-[1.02] transition-all duration-200 group border border-secondary-100"
+                      className="flex items-center space-x-2 p-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-200 group border border-secondary-100"
                     >
-                      <div className="flex-shrink-0 w-10 h-10 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
-                        <MapPin size={18} className="text-primary-600" />
+                      <div className="flex-shrink-0 w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center group-hover:bg-primary-200 transition-colors">
+                        <MapPin size={16} className="text-primary-600" />
                       </div>
                       <div className="flex-1 min-w-0">
                         <p className="text-xs text-secondary-500 mb-0.5">Location</p>
-                        <p className="text-sm font-semibold text-secondary-900">View on Maps</p>
+                        <p className="text-xs font-semibold text-secondary-900">View on Maps</p>
                       </div>
-                      <ExternalLink size={16} className="text-secondary-400 flex-shrink-0" />
+                      <ExternalLink size={14} className="text-secondary-400 flex-shrink-0" />
                     </a>
                   </div>
                 </div>
