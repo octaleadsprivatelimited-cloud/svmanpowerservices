@@ -3,6 +3,8 @@ import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import WhatsAppButton from './components/WhatsAppButton'
 
 // Import all pages
 import Home from './pages/Home'
@@ -29,6 +31,7 @@ import RetailStaffing from './pages/RetailStaffing'
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
@@ -62,6 +65,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <WhatsAppButton />
       <SpeedInsights />
       <Analytics />
     </Router>

@@ -174,9 +174,9 @@ const Home = () => {
       <HeroSlider />
 
       {/* Stats Section */}
-      <section className="section-padding bg-primary-600">
+      <section className="py-8 md:py-12 bg-primary-600">
         <div className="container-max">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}
@@ -185,8 +185,8 @@ const Home = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <div className="text-3xl md:text-4xl font-bold mb-2">{stat.number}</div>
-                <div className="text-primary-100">{stat.label}</div>
+                <div className="text-2xl md:text-3xl font-bold mb-1">{stat.number}</div>
+                <div className="text-sm md:text-base text-primary-100">{stat.label}</div>
               </motion.div>
             ))}
           </div>
