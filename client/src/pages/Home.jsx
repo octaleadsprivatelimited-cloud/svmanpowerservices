@@ -198,10 +198,10 @@ const Home = () => {
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
-              Our Services
+              Our Manpower Services - Housekeeping, Security, Drivers & More
             </h2>
             <p className="text-xl text-secondary-600 max-w-2xl mx-auto">
-              Comprehensive manpower and staffing solutions for all your needs
+              Comprehensive manpower and staffing solutions for all your needs. Professional services for residential, commercial, and industrial requirements.
             </p>
           </div>
 
@@ -240,10 +240,10 @@ const Home = () => {
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
-              Why Choose SV Manpower Services?
+              Why Choose SV Manpower Services - Reliable Staffing Solutions
             </h2>
             <p className="text-xl text-secondary-600 max-w-2xl mx-auto">
-              We are committed to providing the best manpower solutions
+              We are committed to providing the best manpower solutions with verified staff, quality service, and 15+ years of experience in Hyderabad.
             </p>
           </div>
 
@@ -293,10 +293,10 @@ const Home = () => {
         <div className="container-max">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
-              What Our Clients Say
+              Client Testimonials - What Our Clients Say About Us
             </h2>
             <p className="text-xl text-secondary-600">
-              Don't just take our word for it - hear from our satisfied clients
+              Don't just take our word for it - hear from our satisfied clients who have used our manpower and staffing services
             </p>
           </div>
 

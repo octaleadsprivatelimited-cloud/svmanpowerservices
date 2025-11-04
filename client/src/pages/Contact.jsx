@@ -59,9 +59,9 @@ const Contact = () => {
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact Us</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact SV Manpower services - Hyderabad</h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              Ready to connect? We're here to help with all your manpower and staffing needs.
+              Ready to connect? We're here to help with all your manpower and staffing needs. Call +91 9441160049 or visit our office in Moosapet, Hyderabad.
             </p>
           </div>
         </div>

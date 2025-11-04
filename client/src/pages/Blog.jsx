@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { Calendar, User, ArrowRight, Tag } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const Blog = () => {
   const featuredPost = {
@@ -90,6 +91,12 @@ const Blog = () => {
 
   return (
     <div>
+      <SEO
+        title="Blog & Insights - Manpower & Staffing Articles | SV Manpower services Hyderabad"
+        description="Stay updated with the latest trends, tips, and insights in manpower and staffing services. Expert articles on recruitment, HR management, staffing solutions, and industry best practices. Read our blog for valuable HR insights."
+        keywords="manpower blog, staffing articles, HR insights, recruitment tips, staffing solutions blog, manpower services articles, HR management tips, employment trends, job market insights, staffing industry news"
+        url="https://svmanpower.com/blog"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">

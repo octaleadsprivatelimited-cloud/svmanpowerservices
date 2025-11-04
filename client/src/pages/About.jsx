@@ -55,7 +55,7 @@ const About = () => {
               transition={{ duration: 0.8 }}
               className="text-4xl md:text-6xl font-bold mb-6"
             >
-              About SV Manpower services
+              About SV Manpower services - Leading Staffing Agency in Hyderabad
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}

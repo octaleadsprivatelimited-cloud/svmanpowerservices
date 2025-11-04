@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Filter, Users, Building, Award } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -70,6 +71,12 @@ const Portfolio = () => {
 
   return (
     <div>
+      <SEO
+        title="Portfolio - Success Stories & Case Studies | SV Manpower services Hyderabad"
+        description="Explore our portfolio of successful manpower placements and case studies. See how SV Manpower services has helped businesses across various industries with housekeeping, security, drivers, and staffing solutions. Real success stories from satisfied clients."
+        keywords="manpower portfolio, staffing case studies, success stories, manpower placements, client projects, staffing solutions portfolio, manpower services portfolio, employment success stories"
+        url="https://svmanpower.com/portfolio"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">

@@ -55,7 +55,7 @@ const SEO = ({
 
     updateOGTag('og:title', title)
     updateOGTag('og:description', description)
-    updateOGTag('og:image', image || 'https://svmanpower.com/og-image.jpg')
+    updateOGTag('og:image', image || 'https://svmanpower.com/hero.webp')
     updateOGTag('og:url', url || window.location.href)
     updateOGTag('og:type', type)
 
@@ -73,7 +73,7 @@ const SEO = ({
 
     updateTwitterTag('twitter:title', title)
     updateTwitterTag('twitter:description', description)
-    updateTwitterTag('twitter:image', image || 'https://svmanpower.com/twitter-image.jpg')
+    updateTwitterTag('twitter:image', image || 'https://svmanpower.com/hero.webp')
 
     // Update canonical URL
     let canonical = document.querySelector('link[rel="canonical"]')

@@ -184,7 +184,7 @@ const Services = () => {
               transition={{ duration: 0.8 }}
               className="text-4xl md:text-6xl font-bold mb-6"
             >
-              Our Services
+              Professional Manpower & Staffing Services in Hyderabad
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -192,7 +192,7 @@ const Services = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-primary-100 leading-relaxed"
             >
-              Comprehensive manpower and staffing solutions for all your business and personal needs
+              Comprehensive manpower and staffing solutions for all your business and personal needs. Housekeeping, Security, Drivers, Office Staff, and more.
             </motion.p>
           </div>
         </div>

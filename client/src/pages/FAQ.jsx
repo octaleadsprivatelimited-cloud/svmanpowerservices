@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Plus, Minus, HelpCircle, MessageCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const FAQ = () => {
   const [openItems, setOpenItems] = useState({})
@@ -101,6 +102,12 @@ const FAQ = () => {
 
   return (
     <div>
+      <SEO
+        title="FAQ - Frequently Asked Questions | SV Manpower services Hyderabad"
+        description="Find answers to frequently asked questions about SV Manpower services. Learn about our housekeeping, security, drivers, office staff, and other manpower services. Get information about our recruitment process, pricing, and support."
+        keywords="manpower services FAQ, staffing questions, recruitment FAQ, housekeeping services questions, security services FAQ, manpower agency questions, staffing solutions FAQ, employment services FAQ"
+        url="https://svmanpower.com/faq"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -85,6 +86,12 @@ const Testimonials = () => {
 
   return (
     <div>
+      <SEO
+        title="Client Testimonials - Success Stories | SV Manpower services Hyderabad"
+        description="Read testimonials from satisfied clients about SV Manpower services. Real success stories from businesses who have used our housekeeping, security, drivers, and staffing solutions. See why clients trust us for their manpower needs."
+        keywords="manpower services testimonials, client reviews, staffing agency reviews, manpower services feedback, customer testimonials Hyderabad, staffing success stories, satisfied clients, manpower agency reviews"
+        url="https://svmanpower.com/testimonials"
+      />
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
         <div className="container-max">
