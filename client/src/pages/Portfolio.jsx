@@ -28,7 +28,7 @@ const Portfolio = () => {
       title: 'Hospital Staffing Solution',
       category: 'healthcare',
       description: 'Comprehensive staffing solution for a major hospital network during peak season.',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       stats: { placements: 200, time: '3 months', satisfaction: '99%' }
     },
     {
@@ -44,7 +44,7 @@ const Portfolio = () => {
       title: 'Manufacturing Leadership',
       category: 'manufacturing',
       description: 'Executive search for C-suite positions in a major manufacturing company.',
-      image: 'https://images.unsplash.com/photo-1565043589221-1d5d7c3e4e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       stats: { placements: 8, time: '8 months', satisfaction: '95%' }
     },
     {
