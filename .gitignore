@@ -1,0 +1,31 @@
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Builds
+/dist/
+client/dist/
+server/dist/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Vite
+client/.vite
+client/vite_out*.log
+
