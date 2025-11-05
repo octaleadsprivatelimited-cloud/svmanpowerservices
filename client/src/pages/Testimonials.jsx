@@ -1,10 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react'
 import SEO from '../components/SEO'
 
 const Testimonials = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
+  const [playingVideo, setPlayingVideo] = useState(null)
+  const videoRefs = useRef({})
+
+  // Pause all videos when switching
+  useEffect(() => {
+    Object.values(videoRefs.current).forEach((video) => {
+      if (video && video !== videoRefs.current[playingVideo]) {
+        video.pause()
+        video.currentTime = 0
+      }
+    })
+  }, [playingVideo])
 
   const testimonials = [
     {
@@ -240,17 +252,42 @@ const Testimonials = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'TechCorp Success Story',
-                client: 'Sarah Johnson, HR Director',
-                thumbnail: 'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                title: 'Security Services',
+                video: '/video/security.mp4',
+                description: 'Professional security guard services'
               },
               {
-                title: 'InnovateLab Growth Journey',
-                client: 'Michael Chen, CEO',
-                thumbnail: 'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80'
+                title: 'Cleaning Services',
+                video: '/video/cleaning.mp4',
+                description: 'Expert housekeeping and cleaning solutions'
+              },
+              {
+                title: 'Any Job Placement',
+                video: encodeURI('/video/any job.mp4'),
+                description: 'Versatile staffing for all job types'
+              },
+              {
+                title: 'Driving Services',
+                video: '/video/driving.mp4',
+                description: 'Professional drivers and chauffeurs'
+              },
+              {
+                title: 'Deep Cleaning',
+                video: encodeURI('/video/deep cleaning.mp4'),
+                description: 'Thorough deep cleaning services'
+              },
+              {
+                title: 'Car Washing',
+                video: encodeURI('/video/car washing.mp4'),
+                description: 'Professional car washing and detailing'
+              },
+              {
+                title: 'Event Services',
+                video: '/video/events.mp4',
+                description: 'Event staff and management services'
               }
             ].map((video, index) => (
               <motion.div
@@ -259,26 +296,50 @@ const Testimonials = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer hover:shadow-xl transition-shadow"
+                onClick={() => {
+                  setPlayingVideo(playingVideo === index ? null : index)
+                }}
               >
                 <div className="relative">
-                  <img
-                    src={video.thumbnail}
-                    alt={video.title}
-                    className="w-full h-48 object-cover"
-                  />
-                  <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                    <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center">
-                      <div className="w-0 h-0 border-l-8 border-l-primary-600 border-y-8 border-y-transparent ml-1"></div>
-                    </div>
-                  </div>
+                  {playingVideo === index ? (
+                    <video
+                      ref={(el) => (videoRefs.current[index] = el)}
+                      src={video.video}
+                      controls
+                      autoPlay
+                      className="w-full h-64 object-cover bg-black"
+                      onClick={(e) => e.stopPropagation()}
+                      onEnded={() => setPlayingVideo(null)}
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <>
+                      <video
+                        ref={(el) => (videoRefs.current[index] = el)}
+                        src={video.video}
+                        className="w-full h-64 object-cover"
+                        muted
+                        preload="metadata"
+                        playsInline
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/40 to-black/40 flex items-center justify-center hover:from-black/70 hover:via-black/50 hover:to-black/50 transition-all">
+                        <div className="w-16 h-16 bg-white bg-opacity-90 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:scale-110 transition-all shadow-lg">
+                          <div className="w-0 h-0 border-l-8 border-l-primary-600 border-y-8 border-y-transparent ml-1"></div>
+                        </div>
+                      </div>
+                    </>
+                  )}
                 </div>
                 <div className="p-6">
                   <h3 className="text-lg font-semibold text-secondary-900 mb-2">
                     {video.title}
                   </h3>
                   <p className="text-secondary-600">
-                    {video.client}
+                    {video.description}
                   </p>
                 </div>
               </motion.div>

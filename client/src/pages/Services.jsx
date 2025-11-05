@@ -27,6 +27,22 @@ const Services = () => {
 
   const whatsappNumber = '919441160049'
 
+  const videoByTitle = {
+    'Housekeeping Services': '/video/cleaning.mp4',
+    'Office Boys & Girls': encodeURI('/video/any job.mp4'),
+    'Car Washing Services': encodeURI('/video/car washing.mp4'),
+    'Watchman & Security Services': '/video/security.mp4',
+    'Ward Boys & Girls (Hospital)': '/video/boys.mp4',
+    'Security Services': '/video/securityy.mp4',
+    'Deep Cleaning Services': encodeURI('/video/deep cleaning.mp4'),
+    'Accounting Jobs': '/video/accounting.mp4',
+    'Any Degree Jobs': encodeURI('/video/any degree.mp4'),
+    'Plumbing Works': undefined,
+    'Drivers': '/video/driving.mp4',
+    'Delivery Boys': '/video/delivery.mp4',
+    'Event & Function Services': '/video/events.mp4'
+  }
+
   const mainServices = [
     {
       icon: <Home className="w-8 h-8" />,
@@ -222,11 +238,24 @@ const Services = () => {
               >
                 <div className="md:flex">
                   <div className="md:w-1/2">
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-48 md:h-full object-cover"
-                    />
+                    {videoByTitle[service.title] ? (
+                      <video
+                        src={videoByTitle[service.title]}
+                        className="w-full h-48 md:h-full object-cover bg-black"
+                        muted
+                        autoPlay
+                        loop
+                        playsInline
+                      >
+                        Your browser does not support the video tag.
+                      </video>
+                    ) : (
+                      <img
+                        src={service.image}
+                        alt={service.title}
+                        className="w-full h-48 md:h-full object-cover"
+                      />
+                    )}
                   </div>
                   <div className="md:w-1/2 p-6">
                     <div className="flex items-center mb-4">
