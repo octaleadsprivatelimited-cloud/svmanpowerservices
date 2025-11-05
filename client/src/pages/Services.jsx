@@ -25,7 +25,7 @@ const Services = () => {
     return encodeURIComponent(messages[serviceTitle] || `Hello! I am interested in your ${serviceTitle}. Please provide more information about your services.`)
   }
 
-  const whatsappNumber = '919441160049'
+  const whatsappNumber = '919177587766'
 
   const videoByTitle = {
     'Housekeeping Services': '/video/cleaning.mp4',

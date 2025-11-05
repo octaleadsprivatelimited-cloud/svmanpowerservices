@@ -31,7 +31,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             {/* WhatsApp Logo for Mobile */}
             <a 
-              href="https://wa.me/919441160049" 
+              href="https://wa.me/919177587766" 
               target="_blank" 
               rel="noopener noreferrer"
               className="lg:hidden flex items-center justify-center w-10 h-10 bg-[#25D366] rounded-full hover:bg-[#20BA5A] transition-colors shadow-lg"
@@ -50,7 +50,7 @@ const Header = () => {
             
             {/* WhatsApp for Desktop */}
             <a 
-              href="https://wa.me/919441160049" 
+              href="https://wa.me/919177587766" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hidden lg:flex items-center space-x-2 hover:text-blue-200 transition-colors"
@@ -201,7 +201,7 @@ const Header = () => {
 
                     {/* WhatsApp - Medium */}
                     <a
-                      href="https://wa.me/919441160049"
+                      href="https://wa.me/919177587766"
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={() => setIsMobileMenuOpen(false)}

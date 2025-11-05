@@ -221,7 +221,7 @@ const Home = () => {
                 </h3>
                 <p className="text-secondary-600 mb-4 text-sm">{service.description}</p>
                 <a
-                  href={`https://wa.me/919441160049?text=${encodeURIComponent(`Hello! I am interested in your ${service.title}. Please provide more information about your services.`)}`}
+                  href={`https://wa.me/919177587766?text=${encodeURIComponent(`Hello! I am interested in your ${service.title}. Please provide more information about your services.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-3 py-2 rounded-lg font-medium transition-colors text-sm"
