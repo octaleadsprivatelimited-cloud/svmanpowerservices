@@ -12,8 +12,9 @@ const ExecutiveSearch = () => {
 
   return (
     <div>
-      <section className="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-20">
-        <div className="container-max">
+      <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
+        <div className="container-max relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">Executive Search Services</h1>
             <p className="text-xl md:text-2xl text-primary-100">Senior-level talent acquisition for leadership positions</p>

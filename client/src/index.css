@@ -43,4 +43,10 @@
   .animation-delay-400 {
     animation-delay: 400ms;
   }
+  
+  @media (min-width: 1024px) {
+    .hero-bg-position {
+      background-position: center top 30%;
+    }
+  }
 }
