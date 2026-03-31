@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Calculator, Shield, FileText, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const PayrollServices = () => {
   const features = [
@@ -12,6 +13,12 @@ const PayrollServices = () => {
 
   return (
     <div>
+      <SEO
+        title="Payroll Services | Shrijaa Outsourcing Consultants Hyderabad"
+        description="End-to-end payroll services in Hyderabad including processing, compliance, tax filing, and employee payout management."
+        keywords="payroll services Hyderabad, payroll outsourcing, compliance payroll, contract employee payroll"
+        url="https://shrijaaoutsourcing.com/services/payroll-services"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

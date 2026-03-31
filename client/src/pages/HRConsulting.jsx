@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { BookOpen, Target, Users, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const HRConsulting = () => {
   const services = [
@@ -12,6 +13,12 @@ const HRConsulting = () => {
 
   return (
     <div>
+      <SEO
+        title="HR Consulting Services | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Strategic HR consulting services in Hyderabad for policy, compliance, performance systems, and workforce planning."
+        keywords="HR consulting Hyderabad, HR policy services, compliance consulting, workforce strategy"
+        url="https://shrijaaoutsourcing.com/services/hr-consulting"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

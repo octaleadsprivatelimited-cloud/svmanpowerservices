@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Calendar, Users, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const EventServices = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const EventServices = () => {
 
   return (
     <div>
+        <SEO
+          title="Event and Function Staffing Services | Shrijaa Outsourcing Consultants Hyderabad"
+          description="Complete staffing for events, marriages, and functions in Hyderabad. Trained event support staff for smooth event execution."
+          keywords="event staffing Hyderabad, function staffing services, marriage function manpower, event support staff"
+          url="https://shrijaaoutsourcing.com/services/event-services"
+        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">

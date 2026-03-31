@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Building2, Users, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const OfficeBoys = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const OfficeBoys = () => {
 
   return (
     <div>
+        <SEO
+          title="Office Boys and Girls Services | Shrijaa Outsourcing Consultants Hyderabad"
+          description="Hire trained office boys and girls for office support, maintenance, and documentation tasks in Hyderabad."
+          keywords="office boys services Hyderabad, office girls staffing, office support staff, admin support manpower"
+          url="https://shrijaaoutsourcing.com/services/office-boys"
+        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">

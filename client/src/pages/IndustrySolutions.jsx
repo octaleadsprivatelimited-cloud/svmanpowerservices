@@ -1,10 +1,17 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Building, Target, Users } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const IndustrySolutions = () => {
   return (
     <div>
+      <SEO
+        title="Industry Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Specialized staffing solutions for technology, healthcare, finance, manufacturing, and retail sectors in Hyderabad."
+        keywords="industry staffing Hyderabad, sector-specific recruitment, outsourcing consultants Hyderabad, manpower solutions"
+        url="https://shrijaaoutsourcing.com/solutions/industry-solutions"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

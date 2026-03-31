@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Wrench, Shield, Users, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const ManufacturingStaffing = () => {
   const positions = [
@@ -14,6 +15,12 @@ const ManufacturingStaffing = () => {
 
   return (
     <div>
+      <SEO
+        title="Manufacturing Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Manufacturing staffing services in Hyderabad for production, quality, maintenance, safety, and plant operations roles."
+        keywords="manufacturing staffing Hyderabad, production workforce hiring, industrial manpower services, plant staffing"
+        url="https://shrijaaoutsourcing.com/solutions/manufacturing-staffing"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

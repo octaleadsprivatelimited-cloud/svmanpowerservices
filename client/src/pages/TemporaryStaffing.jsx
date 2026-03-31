@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Clock, Users, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const TemporaryStaffing = () => {
   const benefits = [
@@ -14,6 +15,12 @@ const TemporaryStaffing = () => {
 
   return (
     <div>
+      <SEO
+        title="Temporary Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Flexible temporary staffing solutions in Hyderabad for short-term, seasonal, and project-based workforce requirements."
+        keywords="temporary staffing Hyderabad, contract staffing, workforce outsourcing, short-term manpower"
+        url="https://shrijaaoutsourcing.com/services/temporary-staffing"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

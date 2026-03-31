@@ -28,11 +28,11 @@ const Header = () => {
           </div>
           <div className="flex items-center space-x-2 sm:space-x-4 ml-auto">
             <a
-              href="mailto:info@shrijaaoutsorcing.com"
+              href="mailto:shrijaaoutsourcing@gmail.com"
               className="flex items-center space-x-1 sm:space-x-2 hover:text-primary-100 transition-colors"
             >
               <Mail size={16} />
-              <span className="text-xs sm:text-sm">info@shrijaaoutsorcing.com</span>
+              <span className="text-xs sm:text-sm">shrijaaoutsourcing@gmail.com</span>
             </a>
             {/* WhatsApp for Desktop */}
             <a 

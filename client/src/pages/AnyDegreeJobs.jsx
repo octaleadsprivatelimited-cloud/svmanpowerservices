@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { GraduationCap, Briefcase, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const AnyDegreeJobs = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const AnyDegreeJobs = () => {
 
   return (
     <div>
+        <SEO
+          title="Any Degree Jobs Placement | Shrijaa Outsourcing Consultants Hyderabad"
+          description="Job placement services for candidates with any degree qualification across multiple sectors in Hyderabad."
+          keywords="any degree jobs Hyderabad, job placement services, degree jobs, recruitment services Hyderabad"
+          url="https://shrijaaoutsourcing.com/services/any-degree-jobs"
+        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">

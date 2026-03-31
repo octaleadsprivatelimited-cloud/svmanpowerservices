@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { ShoppingBag, Users, Star, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const RetailStaffing = () => {
   const roles = [
@@ -14,6 +15,12 @@ const RetailStaffing = () => {
 
   return (
     <div>
+      <SEO
+        title="Retail Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Retail staffing in Hyderabad for sales associates, store managers, customer support, inventory, and merchandising roles."
+        keywords="retail staffing Hyderabad, store staff recruitment, sales associate hiring, retail manpower services"
+        url="https://shrijaaoutsourcing.com/solutions/retail-staffing"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

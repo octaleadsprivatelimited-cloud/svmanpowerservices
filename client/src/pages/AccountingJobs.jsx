@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Calculator, GraduationCap, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const AccountingJobs = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const AccountingJobs = () => {
 
   return (
     <div>
+        <SEO
+          title="Accounting Jobs Placement | Shrijaa Outsourcing Consultants Hyderabad"
+          description="Accounting job placement and recruitment support in Hyderabad for candidates with any degree and accounting skills."
+          keywords="accounting jobs Hyderabad, accountant placement services, accounting recruitment, finance jobs Hyderabad"
+          url="https://shrijaaoutsourcing.com/services/accounting-jobs"
+        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">

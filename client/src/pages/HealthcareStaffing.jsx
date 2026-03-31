@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Heart, Stethoscope, Shield, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const HealthcareStaffing = () => {
   const positions = [
@@ -14,6 +15,12 @@ const HealthcareStaffing = () => {
 
   return (
     <div>
+      <SEO
+        title="Healthcare Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Healthcare staffing in Hyderabad for nurses, doctors, technicians, and administrators with compliance-focused placements."
+        keywords="healthcare staffing Hyderabad, medical recruitment, nurse staffing, hospital manpower services"
+        url="https://shrijaaoutsourcing.com/solutions/healthcare-staffing"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

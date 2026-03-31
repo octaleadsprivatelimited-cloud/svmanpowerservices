@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { TrendingUp, Award, Users, CheckCircle } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const TrainingDevelopment = () => {
   const programs = [
@@ -12,6 +13,12 @@ const TrainingDevelopment = () => {
 
   return (
     <div>
+      <SEO
+        title="Training and Development Services | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Corporate training and development programs in Hyderabad for skill enhancement, certifications, and leadership growth."
+        keywords="training and development Hyderabad, corporate training, employee skill development, leadership training"
+        url="https://shrijaaoutsourcing.com/services/training-development"
+      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

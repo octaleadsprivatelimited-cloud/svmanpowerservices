@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Shield, Home, CheckCircle, ArrowRight } from 'lucide-react'
+import SEO from '../components/SEO'
 
 const Watchman = () => {
   useEffect(() => {
@@ -14,6 +15,12 @@ const Watchman = () => {
 
   return (
     <div>
+        <SEO
+          title="Watchman Services with Accommodation | Shrijaa Outsourcing Consultants Hyderabad"
+          description="Watchman services with accommodation and 24/7 security support in Hyderabad. Contact Shrijaa Outsourcing Consultants for reliable watchman staffing."
+          keywords="watchman services Hyderabad, security watchman with accommodation, 24/7 watchman staffing, Shrijaa Outsourcing Consultants"
+          url="https://shrijaaoutsourcing.com/services/watchman"
+        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
