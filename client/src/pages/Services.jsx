@@ -177,7 +177,7 @@ const Services = () => {
         title="Our Services - Housekeeping, Security, Drivers & More | Shrijaa Outsourcing Consultants Hyderabad"
         description="Comprehensive manpower services in Hyderabad: Housekeeping, Security Guards, Drivers, Office Staff, Ward Boys, Car Washing, Delivery Boys, Event Staff, and more. Professional staffing solutions. Call +91 7989308337"
         keywords="manpower services Hyderabad, housekeeping services, security guards, drivers, office staff, watchman services, ward boys, car washing services, delivery boys, event staff, plumbing services, accounting jobs, deep cleaning services, temporary staffing, permanent placement, staffing solutions Hyderabad"
-        url="https://svmanpower.com/services"
+        url="https://shrijaaoutsourcing.com/services"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "Service",

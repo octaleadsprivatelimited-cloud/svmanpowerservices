@@ -34,7 +34,7 @@ const Contact = () => {
         title="Contact Us - Shrijaa Outsourcing Consultants | Hyderabad"
         description="Contact Shrijaa Outsourcing Consultants in Hyderabad. Address: H No 7-1-309/6, BK Guda, SR Nagar, Hyderabad - 500038. WhatsApp/Call +91 7989308337. Email: shrijaaoutsourcing@gmail.com"
         keywords="Shrijaa Outsourcing Consultants contact, manpower outsourcing Hyderabad, staffing services Hyderabad, workforce solutions contact"
-        url="https://svmanpower.com/contact"
+        url="https://shrijaaoutsourcing.com/contact"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "ContactPage",

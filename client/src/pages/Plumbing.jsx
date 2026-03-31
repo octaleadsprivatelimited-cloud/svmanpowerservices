@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { Wrench, Tool, CheckCircle, ArrowRight } from 'lucide-react'
+import { Wrench, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Plumbing = () => {
   useEffect(() => {
@@ -85,7 +85,7 @@ const Plumbing = () => {
                   description: 'Skilled and experienced plumbing professionals for all types of work.'
                 },
                 {
-                  icon: <Tool className="w-8 h-8" />,
+                  icon: <Wrench className="w-8 h-8" />,
                   title: 'Installation & Repair',
                   description: 'Complete plumbing installation and repair services for all needs.'
                 },

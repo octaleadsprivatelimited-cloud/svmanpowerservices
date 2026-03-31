@@ -17,7 +17,7 @@ const About = () => {
         title="About Us - Shrijaa Outsourcing Consultants"
         description="Shrijaa Outsourcing Consultants is a professional manpower solutions provider offering permanent recruitment, temporary staffing, and contract manpower outsourcing."
         keywords="Shrijaa Outsourcing Consultants, manpower solutions, recruitment, temporary staffing, contract manpower outsourcing, Hyderabad"
-        url="https://svmanpower.com/about"
+        url="https://shrijaaoutsourcing.com/about"
       />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>

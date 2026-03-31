@@ -75,7 +75,7 @@ const Portfolio = () => {
         title="Portfolio - Success Stories & Case Studies | Shrijaa Outsourcing Consultants Hyderabad"
         description="Explore our portfolio of successful manpower placements and case studies. See how Shrijaa Outsourcing Consultants has helped businesses across various industries with housekeeping, security, drivers, and staffing solutions. Real success stories from satisfied clients."
         keywords="manpower portfolio, staffing case studies, success stories, manpower placements, client projects, staffing solutions portfolio, manpower services portfolio, employment success stories"
-        url="https://svmanpower.com/portfolio"
+        url="https://shrijaaoutsourcing.com/portfolio"
       />
       {/* Hero Section */}
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>

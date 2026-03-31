@@ -64,7 +64,11 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-1">
                       <Link to="/" className="flex items-center space-x-2 mb-4">
-                        <span className="text-xl font-bold">Shrijaa Outsourcing Consultants</span>
+                        <img
+                          src="/shrijaa-outsourcing-logo.png"
+                          alt="Shrijaa Outsourcing Consultants"
+                          className="h-14 w-auto"
+                        />
                       </Link>
               <p className="text-secondary-300 mb-6 leading-relaxed">
                 Your partner in workforce growth.

@@ -106,7 +106,7 @@ const FAQ = () => {
         title="FAQ - Frequently Asked Questions | Shrijaa Outsourcing Consultants Hyderabad"
         description="Find answers to frequently asked questions about Shrijaa Outsourcing Consultants. Learn about our housekeeping, security, drivers, office staff, and other manpower services. Get information about our recruitment process, pricing, and support."
         keywords="manpower services FAQ, staffing questions, recruitment FAQ, housekeeping services questions, security services FAQ, manpower agency questions, staffing solutions FAQ, employment services FAQ"
-        url="https://svmanpower.com/faq"
+        url="https://shrijaaoutsourcing.com/faq"
       />
       {/* Hero Section */}
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>

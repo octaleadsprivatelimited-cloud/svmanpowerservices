@@ -11,7 +11,7 @@ const Home = () => {
     "@type": "WebPage",
     "name": "Shrijaa Outsourcing Consultants - Professional Manpower Solutions",
     "description": "Professional manpower solutions provider in Hyderabad offering skilled, semi-skilled, and unskilled workforce through flexible staffing models.",
-    "url": "https://svmanpower.com/",
+    "url": "https://shrijaaoutsourcing.com/",
     "mainEntity": {
       "@type": "Service",
       "serviceType": "Manpower Services",
@@ -153,7 +153,7 @@ const Home = () => {
         title="Shrijaa Outsourcing Consultants - Professional Manpower Solutions | Hyderabad"
         description="Shrijaa Outsourcing Consultants offers professional manpower solutions in Hyderabad. WhatsApp/Call +91 7989308337 for reliable workforce support."
         keywords="manpower services Hyderabad, staffing agencies Hyderabad, recruitment services Hyderabad, housekeeping services, security guards Hyderabad, drivers Hyderabad, office staff, watchman services, ward boys, car washing services, delivery boys, event staff, manpower agency near me, job placement Hyderabad, staffing solutions, temporary staffing, permanent placement, HR services, employment agency Hyderabad, best manpower agency, reliable staffing services"
-        url="https://svmanpower.com/"
+        url="https://shrijaaoutsourcing.com/"
         structuredData={structuredData}
       />
       {/* Hero Section with Slider */}

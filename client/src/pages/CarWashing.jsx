@@ -12,7 +12,7 @@ const CarWashing = () => {
         title="Car Washing Services - Professional Car Cleaners | Shrijaa Outsourcing Consultants Hyderabad"
         description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 7989308337"
         keywords="car washing services Hyderabad, car cleaners, car washing staff, car service center staff, professional car washing, car wash boys, automobile cleaning staff, car cleaning services"
-        url="https://svmanpower.com/services/car-washing"
+        url="https://shrijaaoutsourcing.com/services/car-washing"
       />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
