@@ -5,10 +5,10 @@ import { Stethoscope, Users, CheckCircle, ArrowRight } from 'lucide-react'
 
 const WardBoys = () => {
   useEffect(() => {
-    document.title = 'Ward Boys & Girls Services - SV Manpower services | Hospital Staff'
+    document.title = 'Ward Boys & Girls Services - Shrijaa Outsourcing Consultants | Hospital Staff'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Hospital ward boys and girls for patient care and hospital maintenance. SV Manpower provides trained ward staff for men and women. Contact us for hospital staffing solutions.')
+      metaDescription.setAttribute('content', 'Hospital ward boys and girls for patient care and hospital maintenance. Shrijaa Outsourcing Consultants provides trained ward staff for men and women. Contact us for hospital staffing solutions.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const WardBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides trained ward boys and girls for hospitals. Our ward staff is trained in patient care, hospital maintenance, and assisting healthcare professionals in various hospital departments.
+                    Shrijaa Outsourcing Consultants provides trained ward boys and girls for hospitals. Our ward staff is trained in patient care, hospital maintenance, and assisting healthcare professionals in various hospital departments.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer both men and women ward staff to meet your hospital's specific requirements. All our ward staff are trained in hospital protocols and hygiene standards.

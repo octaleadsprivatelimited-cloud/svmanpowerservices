@@ -5,10 +5,10 @@ import { Home, Users, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Housekeeping = () => {
   useEffect(() => {
-    document.title = 'Housekeeping Services - SV Manpower services | Professional Cleaning Staff'
+    document.title = 'Housekeeping Services - Shrijaa Outsourcing Consultants | Professional Cleaning Staff'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional housekeeping services for men and women. SV Manpower provides trained housekeeping staff for residential and commercial properties. Contact us today!')
+      metaDescription.setAttribute('content', 'Professional housekeeping services for men and women. Shrijaa Outsourcing Consultants provides trained housekeeping staff for residential and commercial properties. Contact us today!')
     }
   }, [])
 
@@ -57,7 +57,7 @@ const Housekeeping = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides reliable and trained housekeeping staff for both residential and commercial properties. Our housekeeping professionals are carefully selected, background verified, and trained to maintain the highest standards of cleanliness and hygiene.
+                    Shrijaa Outsourcing Consultants provides reliable and trained housekeeping staff for both residential and commercial properties. Our housekeeping professionals are carefully selected, background verified, and trained to maintain the highest standards of cleanliness and hygiene.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     Whether you need housekeeping services for your home, office, hotel, or any commercial establishment, we have the right staff members - both men and women - to meet your specific requirements.

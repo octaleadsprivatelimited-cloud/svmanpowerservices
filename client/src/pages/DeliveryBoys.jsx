@@ -5,10 +5,10 @@ import { Package, Truck, CheckCircle, ArrowRight } from 'lucide-react'
 
 const DeliveryBoys = () => {
   useEffect(() => {
-    document.title = 'Delivery Boys Services - SV Manpower services | Delivery Personnel'
+    document.title = 'Delivery Boys Services - Shrijaa Outsourcing Consultants | Delivery Personnel'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Delivery personnel for courier and food delivery services. SV Manpower provides reliable delivery boys for quick delivery. Contact us for delivery staff.')
+      metaDescription.setAttribute('content', 'Delivery personnel for courier and food delivery services. Shrijaa Outsourcing Consultants provides reliable delivery boys for quick delivery. Contact us for delivery staff.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const DeliveryBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides delivery personnel for various delivery services including courier delivery and food delivery. Our delivery boys are trained to handle deliveries efficiently and ensure timely service.
+                    Shrijaa Outsourcing Consultants provides delivery personnel for various delivery services including courier delivery and food delivery. Our delivery boys are trained to handle deliveries efficiently and ensure timely service.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick delivery, reliable service, and flexible schedules to meet your delivery needs across multiple locations.

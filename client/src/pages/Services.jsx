@@ -25,7 +25,7 @@ const Services = () => {
     return encodeURIComponent(messages[serviceTitle] || `Hello! I am interested in your ${serviceTitle}. Please provide more information about your services.`)
   }
 
-  const whatsappNumber = '919177587766'
+  const whatsappNumber = '917989308337'
 
   const videoByTitle = {
     'Housekeeping Services': '/video/cleaning.mp4',
@@ -174,8 +174,8 @@ const Services = () => {
   return (
     <div>
       <SEO
-        title="Our Services - Housekeeping, Security, Drivers & More | SV Manpower services Hyderabad"
-        description="Comprehensive manpower services in Hyderabad: Housekeeping, Security Guards, Drivers, Office Staff, Ward Boys, Car Washing, Delivery Boys, Event Staff, and more. Professional staffing solutions. Call +91 9441160049"
+        title="Our Services - Housekeeping, Security, Drivers & More | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Comprehensive manpower services in Hyderabad: Housekeeping, Security Guards, Drivers, Office Staff, Ward Boys, Car Washing, Delivery Boys, Event Staff, and more. Professional staffing solutions. Call +91 7989308337"
         keywords="manpower services Hyderabad, housekeeping services, security guards, drivers, office staff, watchman services, ward boys, car washing services, delivery boys, event staff, plumbing services, accounting jobs, deep cleaning services, temporary staffing, permanent placement, staffing solutions Hyderabad"
         url="https://svmanpower.com/services"
         structuredData={{
@@ -184,7 +184,7 @@ const Services = () => {
           "serviceType": "Manpower Services",
           "provider": {
             "@type": "Organization",
-            "name": "SV Manpower services"
+            "name": "Shrijaa Outsourcing Consultants"
           },
           "areaServed": "Hyderabad",
           "description": "Professional manpower and staffing services including housekeeping, security, drivers, office staff, and more."

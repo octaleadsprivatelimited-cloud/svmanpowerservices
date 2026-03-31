@@ -5,10 +5,10 @@ import { Calendar, Users, CheckCircle, ArrowRight } from 'lucide-react'
 
 const EventServices = () => {
   useEffect(() => {
-    document.title = 'Event & Function Services - SV Manpower services | Event Staffing Solutions'
+    document.title = 'Event & Function Services - Shrijaa Outsourcing Consultants | Event Staffing Solutions'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Complete staffing solutions for events, functions, marriage functions, and all types of functions. SV Manpower provides event staffing. Contact us for event services.')
+      metaDescription.setAttribute('content', 'Complete staffing solutions for events, functions, marriage functions, and all types of functions. Shrijaa Outsourcing Consultants provides event staffing. Contact us for event services.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const EventServices = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides complete staffing solutions for events, functions, marriage functions, and all types of functions. We provide trained staff for various event roles including serving, setup, cleanup, and management.
+                    Shrijaa Outsourcing Consultants provides complete staffing solutions for events, functions, marriage functions, and all types of functions. We provide trained staff for various event roles including serving, setup, cleanup, and management.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     Whether you're organizing a wedding, corporate event, birthday party, or any other function, we have the right staff to make your event successful.

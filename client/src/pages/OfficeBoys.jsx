@@ -5,10 +5,10 @@ import { Building2, Users, CheckCircle, ArrowRight } from 'lucide-react'
 
 const OfficeBoys = () => {
   useEffect(() => {
-    document.title = 'Office Boys & Girls Services - SV Manpower services | Office Support Staff'
+    document.title = 'Office Boys & Girls Services - Shrijaa Outsourcing Consultants | Office Support Staff'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Reliable office boys and girls for office support tasks. SV Manpower provides trained office staff for men and women. Contact us for office maintenance and support staff.')
+      metaDescription.setAttribute('content', 'Reliable office boys and girls for office support tasks. Shrijaa Outsourcing Consultants provides trained office staff for men and women. Contact us for office maintenance and support staff.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const OfficeBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides reliable office boys and girls to help with various office tasks and maintenance. Our office support staff is trained to handle document handling, office maintenance, and other essential office duties.
+                    Shrijaa Outsourcing Consultants provides reliable office boys and girls to help with various office tasks and maintenance. Our office support staff is trained to handle document handling, office maintenance, and other essential office duties.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer both men and women office support staff to meet your specific office requirements. Quick deployment and professional service guaranteed.

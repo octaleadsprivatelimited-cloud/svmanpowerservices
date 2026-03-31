@@ -23,7 +23,7 @@ const FAQ = () => {
         },
         {
           question: 'How long has your company been in business?',
-          answer: 'We have been serving clients for over 15 years, establishing ourselves as a trusted partner in manpower and staffing solutions.'
+          answer: 'Shrijaa Outsourcing Consultants was established in 2024 and is focused on becoming a trusted partner in manpower and staffing solutions.'
         },
         {
           question: 'What industries do you serve?',
@@ -103,8 +103,8 @@ const FAQ = () => {
   return (
     <div>
       <SEO
-        title="FAQ - Frequently Asked Questions | SV Manpower services Hyderabad"
-        description="Find answers to frequently asked questions about SV Manpower services. Learn about our housekeeping, security, drivers, office staff, and other manpower services. Get information about our recruitment process, pricing, and support."
+        title="FAQ - Frequently Asked Questions | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Find answers to frequently asked questions about Shrijaa Outsourcing Consultants. Learn about our housekeeping, security, drivers, office staff, and other manpower services. Get information about our recruitment process, pricing, and support."
         keywords="manpower services FAQ, staffing questions, recruitment FAQ, housekeeping services questions, security services FAQ, manpower agency questions, staffing solutions FAQ, employment services FAQ"
         url="https://svmanpower.com/faq"
       />

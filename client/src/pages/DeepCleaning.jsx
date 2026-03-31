@@ -5,10 +5,10 @@ import { Sparkles, Home, Building2, CheckCircle, ArrowRight } from 'lucide-react
 
 const DeepCleaning = () => {
   useEffect(() => {
-    document.title = 'Deep Cleaning Services - SV Manpower services | House & Commercial Office Cleaning'
+    document.title = 'Deep Cleaning Services - Shrijaa Outsourcing Consultants | House & Commercial Office Cleaning'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional deep cleaning services for houses and commercial offices. SV Manpower provides thorough cleaning solutions. Contact us for deep cleaning services.')
+      metaDescription.setAttribute('content', 'Professional deep cleaning services for houses and commercial offices. Shrijaa Outsourcing Consultants provides thorough cleaning solutions. Contact us for deep cleaning services.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const DeepCleaning = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides professional deep cleaning services for both residential houses and commercial offices. Our deep cleaning staff uses specialized equipment and cleaning techniques to ensure a thorough and hygienic cleaning.
+                    Shrijaa Outsourcing Consultants provides professional deep cleaning services for both residential houses and commercial offices. Our deep cleaning staff uses specialized equipment and cleaning techniques to ensure a thorough and hygienic cleaning.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer comprehensive deep cleaning solutions including carpet cleaning, window cleaning, kitchen deep cleaning, bathroom sanitization, and complete office deep cleaning services.

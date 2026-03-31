@@ -5,10 +5,10 @@ import { Shield, Home, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Watchman = () => {
   useEffect(() => {
-    document.title = 'Watchman Services with Accommodation - SV Manpower services | Security Guards'
+    document.title = 'Watchman Services with Accommodation - Shrijaa Outsourcing Consultants | Security Guards'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Watchman jobs with accommodation provided. SV Manpower provides security watchman services with 24/7 coverage. Contact us for reliable watchman services with accommodation.')
+      metaDescription.setAttribute('content', 'Watchman jobs with accommodation provided. Shrijaa Outsourcing Consultants provides security watchman services with 24/7 coverage. Contact us for reliable watchman services with accommodation.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const Watchman = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides watchman services with accommodation included. Our watchman staff is trained to provide 24/7 security coverage for your property, ensuring round-the-clock protection and peace of mind.
+                    Shrijaa Outsourcing Consultants provides watchman services with accommodation included. Our watchman staff is trained to provide 24/7 security coverage for your property, ensuring round-the-clock protection and peace of mind.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We provide accommodation for watchman staff as part of our service, ensuring they are available on-site for continuous security coverage. All our watchman staff are background verified and trained in security protocols.

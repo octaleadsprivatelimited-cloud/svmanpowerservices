@@ -5,10 +5,10 @@ import { Car, Shield, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Drivers = () => {
   useEffect(() => {
-    document.title = 'Drivers Services - SV Manpower services | Professional Drivers'
+    document.title = 'Drivers Services - Shrijaa Outsourcing Consultants | Professional Drivers'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional drivers for personal and commercial vehicles. SV Manpower provides licensed drivers for all vehicle types. Contact us for reliable driver services.')
+      metaDescription.setAttribute('content', 'Professional drivers for personal and commercial vehicles. Shrijaa Outsourcing Consultants provides licensed drivers for all vehicle types. Contact us for reliable driver services.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const Drivers = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides professional drivers for various vehicle types including personal drivers and commercial drivers. Our drivers are licensed, experienced, and background verified for your safety and peace of mind.
+                    Shrijaa Outsourcing Consultants provides professional drivers for various vehicle types including personal drivers and commercial drivers. Our drivers are licensed, experienced, and background verified for your safety and peace of mind.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer reliable driver services for cars, SUVs, commercial vehicles, and more. All our drivers are trained in defensive driving and road safety protocols.

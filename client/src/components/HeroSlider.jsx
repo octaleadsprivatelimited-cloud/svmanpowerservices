@@ -14,7 +14,7 @@ const HeroSlider = () => {
       id: 1,
       title: "Find Your Dream Career",
       subtitle: "Connect with top employers and discover exciting opportunities",
-      image: "/hero.webp",
+      image: "/shrijaa-consulting.webp",
       cta: "Explore Jobs"
     },
     {

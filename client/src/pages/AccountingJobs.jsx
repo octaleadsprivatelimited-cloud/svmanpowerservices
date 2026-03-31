@@ -5,10 +5,10 @@ import { Calculator, GraduationCap, CheckCircle, ArrowRight } from 'lucide-react
 
 const AccountingJobs = () => {
   useEffect(() => {
-    document.title = 'Accounting Jobs - SV Manpower services | Any Degree Accounting Professionals'
+    document.title = 'Accounting Jobs - Shrijaa Outsourcing Consultants | Any Degree Accounting Professionals'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Accounting professionals for various accounting roles. SV Manpower provides accounting jobs for candidates with any degree. Contact us for accounting job placement.')
+      metaDescription.setAttribute('content', 'Accounting professionals for various accounting roles. Shrijaa Outsourcing Consultants provides accounting jobs for candidates with any degree. Contact us for accounting job placement.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const AccountingJobs = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides accounting professionals for various accounting roles across different industries. We accept candidates with any degree qualification and match them with suitable accounting positions.
+                    Shrijaa Outsourcing Consultants provides accounting professionals for various accounting roles across different industries. We accept candidates with any degree qualification and match them with suitable accounting positions.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     Whether you're looking for accounting staff or seeking accounting job opportunities, we help connect qualified accounting professionals with the right positions. Quick placement and verified credentials guaranteed.

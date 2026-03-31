@@ -9,8 +9,8 @@ const CarWashing = () => {
   return (
     <div>
       <SEO
-        title="Car Washing Services - Professional Car Cleaners | SV Manpower services Hyderabad"
-        description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 9441160049"
+        title="Car Washing Services - Professional Car Cleaners | Shrijaa Outsourcing Consultants Hyderabad"
+        description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 7989308337"
         keywords="car washing services Hyderabad, car cleaners, car washing staff, car service center staff, professional car washing, car wash boys, automobile cleaning staff, car cleaning services"
         url="https://svmanpower.com/services/car-washing"
       />
@@ -55,7 +55,7 @@ const CarWashing = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides professional car washing boys for car service centers and automotive facilities. Our car cleaning staff is trained in proper car washing techniques and ensures quality results.
+                    Shrijaa Outsourcing Consultants provides professional car washing boys for car service centers and automotive facilities. Our car cleaning staff is trained in proper car washing techniques and ensures quality results.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick service, flexible schedules, and quality assurance for all car washing needs. Perfect for car service centers, dealerships, and automotive businesses.

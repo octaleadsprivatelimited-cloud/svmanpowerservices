@@ -5,10 +5,10 @@ import { Wrench, Tool, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Plumbing = () => {
   useEffect(() => {
-    document.title = 'Plumbing Works - SV Manpower services | Professional Plumbers'
+    document.title = 'Plumbing Works - Shrijaa Outsourcing Consultants | Professional Plumbers'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Skilled plumbers and plumbing professionals for installation and repair works. SV Manpower provides expert plumbing services. Contact us for plumbing professionals.')
+      metaDescription.setAttribute('content', 'Skilled plumbers and plumbing professionals for installation and repair works. Shrijaa Outsourcing Consultants provides expert plumbing services. Contact us for plumbing professionals.')
     }
   }, [])
 
@@ -55,7 +55,7 @@ const Plumbing = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    SV Manpower services provides skilled plumbers and plumbing professionals for various plumbing installation and repair works. Our plumbers are experienced and trained in handling all types of plumbing tasks.
+                    Shrijaa Outsourcing Consultants provides skilled plumbers and plumbing professionals for various plumbing installation and repair works. Our plumbers are experienced and trained in handling all types of plumbing tasks.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick response times, quality workmanship, and professional service for residential, commercial, and industrial plumbing needs.
