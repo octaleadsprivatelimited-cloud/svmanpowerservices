@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Building2, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const OfficeBoys = () => {
   useEffect(() => {
-    document.title = 'Office Boys & Girls Services - Shrijaa Outsourcing Consultants | Office Support Staff'
+    document.title = 'Office Boys & Girls Services - SV Manpower services | Office Support Staff'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Reliable office boys and girls for office support tasks. Shrijaa Outsourcing Consultants provides trained office staff for men and women. Contact us for office maintenance and support staff.')
+      metaDescription.setAttribute('content', 'Reliable office boys and girls for office support tasks. SV Manpower provides trained office staff for men and women. Contact us for office maintenance and support staff.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Office Boys and Girls Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Hire trained office boys and girls for office support, maintenance, and documentation tasks in Hyderabad."
-          keywords="office boys services Hyderabad, office girls staffing, office support staff, admin support manpower"
-          url="https://shrijaaoutsourcing.com/services/office-boys"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const OfficeBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides reliable office boys and girls to help with various office tasks and maintenance. Our office support staff is trained to handle document handling, office maintenance, and other essential office duties.
+                    SV Manpower services provides reliable office boys and girls to help with various office tasks and maintenance. Our office support staff is trained to handle document handling, office maintenance, and other essential office duties.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer both men and women office support staff to meet your specific office requirements. Quick deployment and professional service guaranteed.

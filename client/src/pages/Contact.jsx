@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react'
 import ContactForm from '../components/ContactForm'
 import SEO from '../components/SEO'
 
@@ -9,50 +9,49 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Address',
-      details: ['H No 7-1-309/6, BK Guda', 'SR Nagar, Hyderabad - 500038']
+      details: ['H.no 12-5-52, Flat No 103, SP Nagar', 'Moosapet, kukatpally', 'Medchal (malkajgori)']
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      details: ['+91 7989308337']
+      details: ['+91 9441160049', '+91 9177587766']
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      details: ['shrijaaoutsourcing@gmail.com']
+      details: ['y.damu264@gmail.com']
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: 'Hours',
-      details: ['Year of Establishment: 2024', 'Tagline: Your partner in workforce growth']
+      details: ['Mon - Fri: 8:00 AM - 6:00 PM', 'Sat: 9:00 AM - 4:00 PM', 'Sun: Closed']
     }
   ]
 
   return (
     <div>
       <SEO
-        title="Contact Us - Shrijaa Outsourcing Consultants | Hyderabad"
-        description="Contact Shrijaa Outsourcing Consultants in Hyderabad. Address: H No 7-1-309/6, BK Guda, SR Nagar, Hyderabad - 500038. WhatsApp/Call +91 7989308337. Email: shrijaaoutsourcing@gmail.com"
-        keywords="Shrijaa Outsourcing Consultants contact, manpower outsourcing Hyderabad, staffing services Hyderabad, workforce solutions contact"
-        url="https://shrijaaoutsourcing.com/contact"
+        title="Contact Us - SV Manpower services | Hyderabad | +91 9441160049"
+        description="Contact SV Manpower services in Hyderabad. Address: H.no 12-5-52, Flat No 103, SP Nagar, Moosapet, kukatpally. Call +91 9441160049 or +91 9177587766. Email: y.damu264@gmail.com"
+        keywords="contact SV Manpower, manpower agency contact, staffing services contact Hyderabad, manpower agency address, contact number manpower services, SV Manpower phone number, manpower agency near me"
+        url="https://svmanpower.com/contact"
         structuredData={{
           "@context": "https://schema.org",
           "@type": "ContactPage",
-          "name": "Contact Shrijaa Outsourcing Consultants",
+          "name": "Contact SV Manpower services",
           "description": "Contact us for all your manpower and staffing needs",
           "mainEntity": {
             "@type": "Organization",
-            "name": "Shrijaa Outsourcing Consultants",
+            "name": "SV Manpower services",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "H No 7-1-309/6, BK Guda",
-              "addressLocality": "SR Nagar, Hyderabad",
-              "postalCode": "500038",
-              "addressRegion": "Telangana",
+              "streetAddress": "H.no 12-5-52, Flat No 103, SP Nagar",
+              "addressLocality": "Moosapet, kukatpally",
+              "addressRegion": "Medchal (malkajgori)",
               "addressCountry": "IN"
             },
-            "telephone": "+91-7989308337",
-            "email": "shrijaaoutsourcing@gmail.com"
+            "telephone": "+91-9441160049",
+            "email": "y.damu264@gmail.com"
           }
         }}
       />
@@ -61,9 +60,9 @@ const Contact = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact Shrijaa Outsourcing Consultants</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact SV Manpower services - Hyderabad</h1>
             <p className="text-xl md:text-2xl text-primary-100">
-              WhatsApp or call us at +91 7989308337 for manpower outsourcing support.
+              Ready to connect? We're here to help with all your manpower and staffing needs. Call +91 9441160049 or visit our office in Moosapet, Hyderabad.
             </p>
           </div>
         </div>
@@ -122,19 +121,19 @@ const Contact = () => {
                 </h3>
                 <div className="rounded-lg overflow-hidden shadow-lg">
                   <iframe
-                    src="https://www.google.com/maps?q=7-1-309/6+BK+Guda+SR+Nagar+Hyderabad+500038&output=embed"
+                    src="https://www.google.com/maps?q=17.4687342,78.4272166&z=17&hl=en&output=embed"
                     width="100%"
                     height="400"
                     style={{ border: 0 }}
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Shrijaa Outsourcing Consultants Location"
+                    title="SV Manpower Services Location"
                   ></iframe>
                 </div>
                 <div className="mt-4">
                   <a
-                    href="https://maps.app.goo.gl/rucz9KUjk6FW7JH19"
+                    href="https://www.google.com/maps?q=17.4687342,78.4272166&z=17&hl=en"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 font-medium text-sm"

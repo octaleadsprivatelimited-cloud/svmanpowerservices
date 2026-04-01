@@ -9,10 +9,10 @@ const CarWashing = () => {
   return (
     <div>
       <SEO
-        title="Car Washing Services - Professional Car Cleaners | Shrijaa Outsourcing Consultants Hyderabad"
-        description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 7989308337"
+        title="Car Washing Services - Professional Car Cleaners | SV Manpower services Hyderabad"
+        description="Professional car washing boys for car service centers and facilities in Hyderabad. Expert car cleaners available for quick and quality service. Call +91 9441160049"
         keywords="car washing services Hyderabad, car cleaners, car washing staff, car service center staff, professional car washing, car wash boys, automobile cleaning staff, car cleaning services"
-        url="https://shrijaaoutsourcing.com/services/car-washing"
+        url="https://svmanpower.com/services/car-washing"
       />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
@@ -55,7 +55,7 @@ const CarWashing = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides professional car washing boys for car service centers and automotive facilities. Our car cleaning staff is trained in proper car washing techniques and ensures quality results.
+                    SV Manpower services provides professional car washing boys for car service centers and automotive facilities. Our car cleaning staff is trained in proper car washing techniques and ensures quality results.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick service, flexible schedules, and quality assurance for all car washing needs. Perfect for car service centers, dealerships, and automotive businesses.

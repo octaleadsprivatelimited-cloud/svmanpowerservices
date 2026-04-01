@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Stethoscope, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const WardBoys = () => {
   useEffect(() => {
-    document.title = 'Ward Boys & Girls Services - Shrijaa Outsourcing Consultants | Hospital Staff'
+    document.title = 'Ward Boys & Girls Services - SV Manpower services | Hospital Staff'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Hospital ward boys and girls for patient care and hospital maintenance. Shrijaa Outsourcing Consultants provides trained ward staff for men and women. Contact us for hospital staffing solutions.')
+      metaDescription.setAttribute('content', 'Hospital ward boys and girls for patient care and hospital maintenance. SV Manpower provides trained ward staff for men and women. Contact us for hospital staffing solutions.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Ward Boys and Girls Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Hospital ward boys and girls for patient care and hospital maintenance in Hyderabad. Contact Shrijaa Outsourcing Consultants for trained ward staff."
-          keywords="ward boys services Hyderabad, ward girls services, hospital staffing Hyderabad, patient care manpower"
-          url="https://shrijaaoutsourcing.com/services/ward-boys"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const WardBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides trained ward boys and girls for hospitals. Our ward staff is trained in patient care, hospital maintenance, and assisting healthcare professionals in various hospital departments.
+                    SV Manpower services provides trained ward boys and girls for hospitals. Our ward staff is trained in patient care, hospital maintenance, and assisting healthcare professionals in various hospital departments.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer both men and women ward staff to meet your hospital's specific requirements. All our ward staff are trained in hospital protocols and hygiene standards.

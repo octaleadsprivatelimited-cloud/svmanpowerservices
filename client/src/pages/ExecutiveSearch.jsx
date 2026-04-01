@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Crown, Search, Users, CheckCircle } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const ExecutiveSearch = () => {
   const services = [
@@ -13,12 +12,6 @@ const ExecutiveSearch = () => {
 
   return (
     <div>
-      <SEO
-        title="Executive Search Services | Shrijaa Outsourcing Consultants Hyderabad"
-        description="Confidential executive search and leadership hiring services in Hyderabad for senior and C-level positions."
-        keywords="executive search Hyderabad, leadership hiring, C-level recruitment, senior talent acquisition"
-        url="https://shrijaaoutsourcing.com/services/executive-search"
-      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

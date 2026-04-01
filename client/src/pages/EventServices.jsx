@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Calendar, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const EventServices = () => {
   useEffect(() => {
-    document.title = 'Event & Function Services - Shrijaa Outsourcing Consultants | Event Staffing Solutions'
+    document.title = 'Event & Function Services - SV Manpower services | Event Staffing Solutions'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Complete staffing solutions for events, functions, marriage functions, and all types of functions. Shrijaa Outsourcing Consultants provides event staffing. Contact us for event services.')
+      metaDescription.setAttribute('content', 'Complete staffing solutions for events, functions, marriage functions, and all types of functions. SV Manpower provides event staffing. Contact us for event services.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Event and Function Staffing Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Complete staffing for events, marriages, and functions in Hyderabad. Trained event support staff for smooth event execution."
-          keywords="event staffing Hyderabad, function staffing services, marriage function manpower, event support staff"
-          url="https://shrijaaoutsourcing.com/services/event-services"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const EventServices = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides complete staffing solutions for events, functions, marriage functions, and all types of functions. We provide trained staff for various event roles including serving, setup, cleanup, and management.
+                    SV Manpower services provides complete staffing solutions for events, functions, marriage functions, and all types of functions. We provide trained staff for various event roles including serving, setup, cleanup, and management.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     Whether you're organizing a wedding, corporate event, birthday party, or any other function, we have the right staff to make your event successful.

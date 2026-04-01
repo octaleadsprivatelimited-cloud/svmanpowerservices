@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Code, Server, Database, CheckCircle } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const TechnologyStaffing = () => {
   const roles = [
@@ -15,12 +14,6 @@ const TechnologyStaffing = () => {
 
   return (
     <div>
-      <SEO
-        title="Technology Staffing Solutions | Shrijaa Outsourcing Consultants Hyderabad"
-        description="Technology staffing services in Hyderabad for developers, DevOps engineers, data specialists, and IT leadership roles."
-        keywords="technology staffing Hyderabad, IT recruitment, software developer hiring, tech talent acquisition"
-        url="https://shrijaaoutsourcing.com/solutions/technology-staffing"
-      />
       <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
         <div className="container-max relative z-10">

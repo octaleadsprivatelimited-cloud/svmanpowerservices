@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Calculator, GraduationCap, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const AccountingJobs = () => {
   useEffect(() => {
-    document.title = 'Accounting Jobs - Shrijaa Outsourcing Consultants | Any Degree Accounting Professionals'
+    document.title = 'Accounting Jobs - SV Manpower services | Any Degree Accounting Professionals'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Accounting professionals for various accounting roles. Shrijaa Outsourcing Consultants provides accounting jobs for candidates with any degree. Contact us for accounting job placement.')
+      metaDescription.setAttribute('content', 'Accounting professionals for various accounting roles. SV Manpower provides accounting jobs for candidates with any degree. Contact us for accounting job placement.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Accounting Jobs Placement | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Accounting job placement and recruitment support in Hyderabad for candidates with any degree and accounting skills."
-          keywords="accounting jobs Hyderabad, accountant placement services, accounting recruitment, finance jobs Hyderabad"
-          url="https://shrijaaoutsourcing.com/services/accounting-jobs"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const AccountingJobs = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides accounting professionals for various accounting roles across different industries. We accept candidates with any degree qualification and match them with suitable accounting positions.
+                    SV Manpower services provides accounting professionals for various accounting roles across different industries. We accept candidates with any degree qualification and match them with suitable accounting positions.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     Whether you're looking for accounting staff or seeking accounting job opportunities, we help connect qualified accounting professionals with the right positions. Quick placement and verified credentials guaranteed.

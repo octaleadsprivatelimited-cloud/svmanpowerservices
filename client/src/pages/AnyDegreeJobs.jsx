@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { GraduationCap, Briefcase, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const AnyDegreeJobs = () => {
   useEffect(() => {
-    document.title = 'Any Degree Jobs - Shrijaa Outsourcing Consultants | Job Placement for All Degrees'
+    document.title = 'Any Degree Jobs - SV Manpower services | Job Placement for All Degrees'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Job placement services for candidates with any degree qualification. Shrijaa Outsourcing Consultants provides job opportunities across various sectors. Contact us for job placement.')
+      metaDescription.setAttribute('content', 'Job placement services for candidates with any degree qualification. SV Manpower provides job opportunities across various sectors. Contact us for job placement.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Any Degree Jobs Placement | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Job placement services for candidates with any degree qualification across multiple sectors in Hyderabad."
-          keywords="any degree jobs Hyderabad, job placement services, degree jobs, recruitment services Hyderabad"
-          url="https://shrijaaoutsourcing.com/services/any-degree-jobs"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const AnyDegreeJobs = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides job placement services for candidates with any degree qualification. We believe that opportunities should be available to all degree holders, and we match candidates with suitable positions based on their skills and interests.
+                    SV Manpower services provides job placement services for candidates with any degree qualification. We believe that opportunities should be available to all degree holders, and we match candidates with suitable positions based on their skills and interests.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer job placement across multiple sectors and industries, providing career guidance and placement support to help candidates find the right opportunities regardless of their degree field.

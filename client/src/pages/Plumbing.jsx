@@ -1,26 +1,19 @@
 import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { Wrench, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
+import { Wrench, Tool, CheckCircle, ArrowRight } from 'lucide-react'
 
 const Plumbing = () => {
   useEffect(() => {
-    document.title = 'Plumbing Works - Shrijaa Outsourcing Consultants | Professional Plumbers'
+    document.title = 'Plumbing Works - SV Manpower services | Professional Plumbers'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Skilled plumbers and plumbing professionals for installation and repair works. Shrijaa Outsourcing Consultants provides expert plumbing services. Contact us for plumbing professionals.')
+      metaDescription.setAttribute('content', 'Skilled plumbers and plumbing professionals for installation and repair works. SV Manpower provides expert plumbing services. Contact us for plumbing professionals.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Plumbing Services Professionals | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Skilled plumbers for installation, maintenance, and repair works in Hyderabad. Reliable plumbing professionals for residential and commercial needs."
-          keywords="plumbing services Hyderabad, plumber staffing, plumbing professionals, plumbing repair manpower"
-          url="https://shrijaaoutsourcing.com/services/plumbing"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const Plumbing = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides skilled plumbers and plumbing professionals for various plumbing installation and repair works. Our plumbers are experienced and trained in handling all types of plumbing tasks.
+                    SV Manpower services provides skilled plumbers and plumbing professionals for various plumbing installation and repair works. Our plumbers are experienced and trained in handling all types of plumbing tasks.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick response times, quality workmanship, and professional service for residential, commercial, and industrial plumbing needs.
@@ -92,7 +85,7 @@ const Plumbing = () => {
                   description: 'Skilled and experienced plumbing professionals for all types of work.'
                 },
                 {
-                  icon: <Wrench className="w-8 h-8" />,
+                  icon: <Tool className="w-8 h-8" />,
                   title: 'Installation & Repair',
                   description: 'Complete plumbing installation and repair services for all needs.'
                 },

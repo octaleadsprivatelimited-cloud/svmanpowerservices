@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Package, Truck, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const DeliveryBoys = () => {
   useEffect(() => {
-    document.title = 'Delivery Boys Services - Shrijaa Outsourcing Consultants | Delivery Personnel'
+    document.title = 'Delivery Boys Services - SV Manpower services | Delivery Personnel'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Delivery personnel for courier and food delivery services. Shrijaa Outsourcing Consultants provides reliable delivery boys for quick delivery. Contact us for delivery staff.')
+      metaDescription.setAttribute('content', 'Delivery personnel for courier and food delivery services. SV Manpower provides reliable delivery boys for quick delivery. Contact us for delivery staff.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Delivery Boys Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Delivery boys for courier, e-commerce, and food delivery services in Hyderabad. Fast and reliable delivery staff."
-          keywords="delivery boys Hyderabad, courier delivery staff, e-commerce delivery manpower, food delivery staffing"
-          url="https://shrijaaoutsourcing.com/services/delivery-boys"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const DeliveryBoys = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides delivery personnel for various delivery services including courier delivery and food delivery. Our delivery boys are trained to handle deliveries efficiently and ensure timely service.
+                    SV Manpower services provides delivery personnel for various delivery services including courier delivery and food delivery. Our delivery boys are trained to handle deliveries efficiently and ensure timely service.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer quick delivery, reliable service, and flexible schedules to meet your delivery needs across multiple locations.

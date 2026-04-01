@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Shield, Users, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const Security = () => {
   useEffect(() => {
-    document.title = 'Security Services - Shrijaa Outsourcing Consultants | Security Guards Men & Women'
+    document.title = 'Security Services - SV Manpower services | Security Guards Men & Women'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Comprehensive security services with trained security personnel for men and women. Shrijaa Outsourcing Consultants provides 24/7 security guards. Contact us for reliable security services.')
+      metaDescription.setAttribute('content', 'Comprehensive security services with trained security personnel for men and women. SV Manpower provides 24/7 security guards. Contact us for reliable security services.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Security Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Professional security guard services for residential, commercial, and industrial premises in Hyderabad. Men and women security personnel available."
-          keywords="security services Hyderabad, security guards Hyderabad, 24/7 security staffing, trained security personnel"
-          url="https://shrijaaoutsourcing.com/services/security"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const Security = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides comprehensive security services with trained security personnel for both men and women. Our security guards are trained in security protocols, access control, and emergency response procedures.
+                    SV Manpower services provides comprehensive security services with trained security personnel for both men and women. Our security guards are trained in security protocols, access control, and emergency response procedures.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer 24/7 security coverage for residential, commercial, and industrial properties. All our security personnel are background verified and trained to handle various security situations professionally.

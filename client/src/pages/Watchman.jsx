@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Shield, Home, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const Watchman = () => {
   useEffect(() => {
-    document.title = 'Watchman Services with Accommodation - Shrijaa Outsourcing Consultants | Security Guards'
+    document.title = 'Watchman Services with Accommodation - SV Manpower services | Security Guards'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Watchman jobs with accommodation provided. Shrijaa Outsourcing Consultants provides security watchman services with 24/7 coverage. Contact us for reliable watchman services with accommodation.')
+      metaDescription.setAttribute('content', 'Watchman jobs with accommodation provided. SV Manpower provides security watchman services with 24/7 coverage. Contact us for reliable watchman services with accommodation.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Watchman Services with Accommodation | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Watchman services with accommodation and 24/7 security support in Hyderabad. Contact Shrijaa Outsourcing Consultants for reliable watchman staffing."
-          keywords="watchman services Hyderabad, security watchman with accommodation, 24/7 watchman staffing, Shrijaa Outsourcing Consultants"
-          url="https://shrijaaoutsourcing.com/services/watchman"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const Watchman = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides watchman services with accommodation included. Our watchman staff is trained to provide 24/7 security coverage for your property, ensuring round-the-clock protection and peace of mind.
+                    SV Manpower services provides watchman services with accommodation included. Our watchman staff is trained to provide 24/7 security coverage for your property, ensuring round-the-clock protection and peace of mind.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We provide accommodation for watchman staff as part of our service, ensuring they are available on-site for continuous security coverage. All our watchman staff are background verified and trained in security protocols.

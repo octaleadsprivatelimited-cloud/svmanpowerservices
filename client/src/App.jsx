@@ -11,21 +11,10 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Services from './pages/Services'
 import Portfolio from './pages/Portfolio'
+import Blog from './pages/Blog'
 import Contact from './pages/Contact'
+import Testimonials from './pages/Testimonials'
 import FAQ from './pages/FAQ'
-import Housekeeping from './pages/Housekeeping'
-import OfficeBoys from './pages/OfficeBoys'
-import CarWashing from './pages/CarWashing'
-import Watchman from './pages/Watchman'
-import WardBoys from './pages/WardBoys'
-import Security from './pages/Security'
-import DeepCleaning from './pages/DeepCleaning'
-import AccountingJobs from './pages/AccountingJobs'
-import AnyDegreeJobs from './pages/AnyDegreeJobs'
-import Plumbing from './pages/Plumbing'
-import Drivers from './pages/Drivers'
-import DeliveryBoys from './pages/DeliveryBoys'
-import EventServices from './pages/EventServices'
 import TemporaryStaffing from './pages/TemporaryStaffing'
 import PermanentPlacement from './pages/PermanentPlacement'
 import ExecutiveSearch from './pages/ExecutiveSearch'
@@ -52,23 +41,12 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
             
             {/* Service Pages */}
-            <Route path="/services/housekeeping" element={<Housekeeping />} />
-            <Route path="/services/office-boys" element={<OfficeBoys />} />
-            <Route path="/services/car-washing" element={<CarWashing />} />
-            <Route path="/services/watchman" element={<Watchman />} />
-            <Route path="/services/ward-boys" element={<WardBoys />} />
-            <Route path="/services/security" element={<Security />} />
-            <Route path="/services/deep-cleaning" element={<DeepCleaning />} />
-            <Route path="/services/accounting-jobs" element={<AccountingJobs />} />
-            <Route path="/services/any-degree-jobs" element={<AnyDegreeJobs />} />
-            <Route path="/services/plumbing" element={<Plumbing />} />
-            <Route path="/services/drivers" element={<Drivers />} />
-            <Route path="/services/delivery-boys" element={<DeliveryBoys />} />
-            <Route path="/services/event-services" element={<EventServices />} />
             <Route path="/services/temporary-staffing" element={<TemporaryStaffing />} />
             <Route path="/services/permanent-placement" element={<PermanentPlacement />} />
             <Route path="/services/executive-search" element={<ExecutiveSearch />} />
@@ -83,7 +61,6 @@ function App() {
             <Route path="/solutions/finance-staffing" element={<FinanceStaffing />} />
             <Route path="/solutions/manufacturing-staffing" element={<ManufacturingStaffing />} />
             <Route path="/solutions/retail-staffing" element={<RetailStaffing />} />
-            <Route path="*" element={<Home />} />
           </Routes>
         </main>
         <Footer />

@@ -2,25 +2,18 @@ import React, { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { Sparkles, Home, Building2, CheckCircle, ArrowRight } from 'lucide-react'
-import SEO from '../components/SEO'
 
 const DeepCleaning = () => {
   useEffect(() => {
-    document.title = 'Deep Cleaning Services - Shrijaa Outsourcing Consultants | House & Commercial Office Cleaning'
+    document.title = 'Deep Cleaning Services - SV Manpower services | House & Commercial Office Cleaning'
     const metaDescription = document.querySelector('meta[name="description"]')
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Professional deep cleaning services for houses and commercial offices. Shrijaa Outsourcing Consultants provides thorough cleaning solutions. Contact us for deep cleaning services.')
+      metaDescription.setAttribute('content', 'Professional deep cleaning services for houses and commercial offices. SV Manpower provides thorough cleaning solutions. Contact us for deep cleaning services.')
     }
   }, [])
 
   return (
     <div>
-        <SEO
-          title="Deep Cleaning Services | Shrijaa Outsourcing Consultants Hyderabad"
-          description="Deep cleaning services for homes and offices in Hyderabad. Professional staff for sanitization, floor care, and complete cleaning."
-          keywords="deep cleaning Hyderabad, house deep cleaning, office deep cleaning, sanitization services"
-          url="https://shrijaaoutsourcing.com/services/deep-cleaning"
-        />
         <section className="relative text-white py-20 lg:pt-32 bg-cover bg-center bg-no-repeat hero-bg-position" style={{ backgroundImage: 'url(/hero.webp)' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-primary-600/80 to-primary-800/80"></div>
           <div className="container-max relative z-10">
@@ -62,7 +55,7 @@ const DeepCleaning = () => {
                     </h2>
                   </div>
                   <p className="text-secondary-700 leading-relaxed mb-6">
-                    Shrijaa Outsourcing Consultants provides professional deep cleaning services for both residential houses and commercial offices. Our deep cleaning staff uses specialized equipment and cleaning techniques to ensure a thorough and hygienic cleaning.
+                    SV Manpower services provides professional deep cleaning services for both residential houses and commercial offices. Our deep cleaning staff uses specialized equipment and cleaning techniques to ensure a thorough and hygienic cleaning.
                   </p>
                   <p className="text-secondary-700 leading-relaxed mb-6">
                     We offer comprehensive deep cleaning solutions including carpet cleaning, window cleaning, kitchen deep cleaning, bathroom sanitization, and complete office deep cleaning services.

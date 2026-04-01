@@ -17,7 +17,9 @@ const Footer = () => {
     {
       title: 'Company',
       links: [
-        { name: 'About Us', href: '/about' }
+        { name: 'About Us', href: '/about' },
+        { name: 'News & Updates', href: '/blog' },
+        { name: 'Testimonials', href: '/testimonials' }
       ]
     },
     {
@@ -45,18 +47,25 @@ const Footer = () => {
     {
       title: 'Resources',
       links: [
-        { name: 'About Us', href: '/about' },
-        { name: 'Services', href: '/services' },
-        { name: 'Portfolio', href: '/portfolio' },
+        { name: 'Job Search Tips', href: '/blog/job-search-tips' },
+        { name: 'Career Advice', href: '/blog/career-advice' },
+        { name: 'Industry Insights', href: '/blog/industry-insights' },
         { name: 'FAQ', href: '/faq' },
         { name: 'Contact Us', href: '/contact' }
       ]
     }
   ]
 
+  const socialLinks = [
+    { name: 'Facebook', href: 'https://facebook.com/hrstaffing', icon: 'facebook' },
+    { name: 'Twitter', href: 'https://twitter.com/hrstaffing', icon: 'twitter' },
+    { name: 'LinkedIn', href: 'https://linkedin.com/company/hrstaffing', icon: 'linkedin' },
+    { name: 'Instagram', href: 'https://instagram.com/hrstaffing', icon: 'instagram' }
+  ]
+
   return (
     <footer className="bg-secondary-900 text-white relative">
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15" style={{ backgroundImage: 'url(/footer-bg.jpg)' }}></div>
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-10" style={{ backgroundImage: 'url(/hero.webp)' }}></div>
       <div className="container-max px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Main Footer Content */}
         <div className="py-12">
@@ -64,14 +73,10 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-1">
                       <Link to="/" className="flex items-center space-x-2 mb-4">
-                        <img
-                          src="/shrijaa-outsourcing-logo.png"
-                          alt="Shrijaa Outsourcing Consultants"
-                          className="h-14 w-auto"
-                        />
+                        <span className="text-xl font-bold">SV Manpower services</span>
                       </Link>
               <p className="text-secondary-300 mb-6 leading-relaxed">
-                Your partner in workforce growth.
+                Connecting top talent with exceptional opportunities. Your trusted partner in manpower and staffing solutions.
               </p>
               
               {/* Contact Info */}
@@ -79,11 +84,12 @@ const Footer = () => {
                 <div>
                   <h4 className="font-semibold mb-1.5 text-sm">Contact Information</h4>
                   <div className="text-secondary-300 space-y-0.5 text-xs">
-                    <p>H No 7-1-309/6, BK Guda,</p>
-                    <p>SR Nagar, Hyderabad - 500038</p>
-                    <p>WhatsApp / Call: +91 7989308337</p>
-                    <p>Email: shrijaaoutsourcing@gmail.com</p>
-                    <p>Established: 2024</p>
+                    <p>H.no 12-5-52, Flat No 103, SP Nagar</p>
+                    <p>Moosapet, kukatpally</p>
+                    <p>Medchal (malkajgori)</p>
+                    <p>Phone: +91 9441160049</p>
+                    <p>Phone: +91 9177587766</p>
+                    <p>Email: y.damu264@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -158,28 +164,37 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-secondary-400 text-sm text-center md:text-left">
-              <p>&copy; 2024 Shrijaa Outsourcing Consultants. All rights reserved.</p>
+              <p>&copy; 2024 SV Manpower services. All rights reserved.</p>
               <p className="mt-1">
                 Designed and developed by{' '}
                 <a 
                   href="https://www.octaleads.com/" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-white hover:text-secondary-200 transition-colors"
+                  className="text-orange-400 hover:text-orange-300 transition-colors"
                 >
                   Octaleads Pvt Ltd
                 </a>
               </p>
             </div>
 
-            <a
-              href="https://maps.app.goo.gl/rucz9KUjk6FW7JH19"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-secondary-300 hover:text-white text-sm transition-colors duration-200"
-            >
-              View business location on Google Maps
-            </a>
+            {/* Social Links */}
+            <div className="flex items-center space-x-4">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary-400 hover:text-white transition-colors duration-200"
+                  aria-label={social.name}
+                >
+                  <div className="w-8 h-8 bg-secondary-800 rounded-full flex items-center justify-center hover:bg-orange-600 transition-colors">
+                    <span className="text-sm font-bold">{social.icon[0].toUpperCase()}</span>
+                  </div>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </div>
